@@ -1,0 +1,87 @@
+/*#############
+### Colores ###
+#############*/
+
+.bg-primary {
+	background-color: #00aeff !important;
+}
+
+.btn-primary {
+	background-color: #00aeff !important;
+	border-color: #ffffff !important;
+}
+
+.bg-secondary {
+	background-color: #ffffff !important;
+}
+
+body {
+	background-color: #00aeff !important;
+}
+
+/*##############
+#### Básico ####
+##############*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+i{
+	padding-right: 10px;
+}
+
+h1{
+	color: #ffffff;
+	font-weight: 500 !important;
+}
+
+p{
+	color: #ffffff;
+	font-weight: 500 !important;
+	font-size: 15px;
+}
+
+hr{
+	background-color: #ffffff;
+	color: #ffffff;
+	height: 5px;
+}
+
+.nav-link{
+	font-size: 18px;
+    font-weight: 500;
+	color: #ffffff !important;
+}
+
+.navbar-brand{
+    font-size: 25px;
+	font-weight: 700;
+	color: #ffffff !important;
+}
+
+#navbar {
+    border-bottom: solid;
+    border-width: thick;
+    border-color: #ffffff;
+}
+
+#footer {
+    border-top: solid;
+    border-width: thick;
+    border-color: #ffffff;
+}
+
+.border-container {
+    border: solid;
+    border-width: thick;
+    border-color: #ffffff;
+}
+
+.card {
+    border: 5px solid #ffffff;
+}
+
+img {
+    border: 2px solid #ffffff;
+}
