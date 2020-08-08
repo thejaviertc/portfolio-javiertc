@@ -2,6 +2,10 @@
 ### Colores ###
 #############*/
 
+body {
+	background-color: #00aeff !important;
+}
+
 .bg-primary {
 	background-color: #00aeff !important;
 }
@@ -15,8 +19,8 @@
 	background-color: #ffffff !important;
 }
 
-body {
-	background-color: #00aeff !important;
+.progress {
+	background-color: #ffffff !important;
 }
 
 /*##############
@@ -46,24 +50,6 @@ hr{
 	background-color: #ffffff;
 	color: #ffffff;
 	height: 5px;
-}
-
-.nav-link{
-	font-size: 18px;
-    font-weight: 500;
-	color: #ffffff !important;
-}
-
-.navbar-brand{
-    font-size: 25px;
-	font-weight: 700;
-	color: #ffffff !important;
-}
-
-#navbar {
-    border-bottom: solid;
-    border-width: thick;
-    border-color: #ffffff;
 }
 
 #footer {
