@@ -1,5 +1,7 @@
+// Basic
 import React, { Component } from "react";
 
+// Footer Component
 class Footer extends Component {
     render() {
         return (

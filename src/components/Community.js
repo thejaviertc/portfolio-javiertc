@@ -1,6 +1,7 @@
+// Basic
 import React, { Component } from "react";
-// import Badge from "./Badge";
 
+// Community Component
 class Community extends Component {
     render() {
         const communities = [

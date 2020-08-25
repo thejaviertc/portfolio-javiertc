@@ -1,7 +1,7 @@
-//
+// Basic
 import React, { Component } from "react";
 
-//
+// Images
 import steamStatsImg from "../img/steamstats.png";
 import gmodEspanaImg from "../img/gmodespana.jpg";
 import policePdImg from "../img/policepd.png";
@@ -9,6 +9,7 @@ import cosaNostraImg from "../img/webcosanostra.png";
 import discordBotImg from "../img/discordbot.png";
 import emergenciasImg from "../img/emergencias.jpg";
 
+// Projects Component
 class Projects extends Component {
     render() {
         const projects = [

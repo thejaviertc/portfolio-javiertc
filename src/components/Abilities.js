@@ -1,5 +1,7 @@
+// Basic
 import React, { Component } from "react";
 
+// Abilities Component
 class Abilities extends Component {
     render() {
         const abilities = [
