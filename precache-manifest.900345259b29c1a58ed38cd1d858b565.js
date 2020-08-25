@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8bc33100401327fdc90edef9cab1fe5",
+    "revision": "c45de412cbf709e8936324fe2a573a38",
     "url": "/portfolio-javiertc/index.html"
   },
   {
-    "revision": "08d5dc0199fbf1cc2707",
+    "revision": "4e45fee794877839407e",
     "url": "/portfolio-javiertc/static/css/2.a9478c95.chunk.css"
   },
   {
-    "revision": "fbca66d246699bf60278",
+    "revision": "93bd5e4031f5f1e365b2",
     "url": "/portfolio-javiertc/static/css/main.238ff22e.chunk.css"
   },
   {
-    "revision": "08d5dc0199fbf1cc2707",
-    "url": "/portfolio-javiertc/static/js/2.feb2484e.chunk.js"
+    "revision": "4e45fee794877839407e",
+    "url": "/portfolio-javiertc/static/js/2.d8e04fb6.chunk.js"
   },
   {
     "revision": "d81c6c91afd2bb4bf8caccddf0472235",
-    "url": "/portfolio-javiertc/static/js/2.feb2484e.chunk.js.LICENSE.txt"
+    "url": "/portfolio-javiertc/static/js/2.d8e04fb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbca66d246699bf60278",
-    "url": "/portfolio-javiertc/static/js/main.ea33725e.chunk.js"
+    "revision": "93bd5e4031f5f1e365b2",
+    "url": "/portfolio-javiertc/static/js/main.5fa3cc77.chunk.js"
   },
   {
     "revision": "d70e2dafc9d66c2ab8d6",
     "url": "/portfolio-javiertc/static/js/runtime-main.e4a73172.js"
+  },
+  {
+    "revision": "8e31b61eb7972c6736f6cc0656618288",
+    "url": "/portfolio-javiertc/static/media/discordbot.8e31b61e.png"
+  },
+  {
+    "revision": "0fa0c5e0f95ba1f8116c52235c191b3d",
+    "url": "/portfolio-javiertc/static/media/emergencias.0fa0c5e0.jpg"
   },
   {
     "revision": "085b1dd8427dbeff10bd55410915a3f6",
@@ -88,7 +96,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-javiertc/static/media/fa-solid-900.ee09ad75.woff"
   },
   {
+    "revision": "5a8f66a86a57f730cf29a548a5d0f4e7",
+    "url": "/portfolio-javiertc/static/media/gmodespana.5a8f66a8.jpg"
+  },
+  {
+    "revision": "05fce00f89a3ed9df76ab245134a27ec",
+    "url": "/portfolio-javiertc/static/media/policepd.05fce00f.png"
+  },
+  {
     "revision": "51ec529479021783a4b7c5d876dd5a2f",
     "url": "/portfolio-javiertc/static/media/steamstats.51ec5294.png"
+  },
+  {
+    "revision": "208ddd115c3041f37470405851ca1b50",
+    "url": "/portfolio-javiertc/static/media/webcosanostra.208ddd11.png"
   }
 ]);
