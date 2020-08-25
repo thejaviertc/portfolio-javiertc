@@ -2,12 +2,18 @@
 import React, { Component } from "react";
 
 //
-import steamStatsImg from "../img/steamstats.png"
+import steamStatsImg from "../img/steamstats.png";
+import gmodEspanaImg from "../img/gmodespana.jpg";
+import policePdImg from "../img/policepd.png";
+import cosaNostraImg from "../img/webcosanostra.png";
+import discordBotImg from "../img/discordbot.png";
+import emergenciasImg from "../img/emergencias.jpg";
+
 class Projects extends Component {
     render() {
         const projects = [
             {
-                image: {steamStatsImg},
+                image: steamStatsImg,
                 name: "Steam Workshop",
                 badges: [
                     <a class="badge badge-danger text-white mx-1 my-1"><i class="fas fa-code"></i> WIP</a>,
@@ -17,7 +23,7 @@ class Projects extends Component {
                 link: "https://github.com/thejaviertc/steam-workshop-stats"
             },
             {
-                image: "gmodespana.jpg",
+                image: gmodEspanaImg,
                 name: "Garry's Mod España",
                 badges: [
                     <a class="badge badge-danger text-white mx-1 my-1"><i class="fas fa-code"></i> WIP</a>,
@@ -27,7 +33,7 @@ class Projects extends Component {
                 link: "https://github.com/thejaviertc/gmodespana"
             },
             {
-                image: "policepd.png",
+                image: policePdImg,
                 name: "Base de Datos Policial",
                 badges: [
                     <a class="badge badge-danger text-white mx-1 my-1 text-white"><i class="fas fa-code"></i> PHP</a>
@@ -36,7 +42,7 @@ class Projects extends Component {
                 link: "https://github.com/thejaviertc/police-pd"
             },
             {
-                image: "webcosanostra.png",
+                image: cosaNostraImg,
                 name: "Web Cosa Nostra",
                 badges: [
                     <a class="badge badge-info mx-1 my-1 text-white"><i class="fas fa-code"></i> Frontend</a>
@@ -45,7 +51,7 @@ class Projects extends Component {
                 link: "https://github.com/thejaviertc/web-cosa-nostra"
             },
             {
-                image: "discordbot.png",
+                image: discordBotImg,
                 name: "Bot de Discord",
                 badges: [
                     <a class="badge badge-success text-white mx-1 my-1"><i class="fas fa-code"></i> NodeJS</a>
@@ -54,7 +60,7 @@ class Projects extends Component {
                 link: "https://github.com/thejaviertc/cosa_nostra_bot"
             },
             {
-                image: "emergencias.jpg",
+                image: emergenciasImg,
                 name: "Vehículos de Emergencias",
                 badges: [
                     <a class="badge badge-primary mx-1 my-1 text-white"><i class="fas fa-code"></i> GLua</a>,
@@ -71,7 +77,7 @@ class Projects extends Component {
                     <div className="card-body">
                         <div class="row">
                             <div class="col-4 d-none d-lg-block">
-                                <img class="img-fluid" src={"../../img/" + project.image} />
+                                <img class="img-fluid" src={project.image}/>
                             </div>
                             <div class="col-12 col-md-8 text-center text-md-left">
                                 <h4 class="card-title text-white">{project.name}:</h4>
