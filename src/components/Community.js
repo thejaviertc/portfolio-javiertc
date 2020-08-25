@@ -8,68 +8,68 @@ class Community extends Component {
                 name: "Capitol Games",
                 time: "3 meses",
                 badges: [
-                    <a className="badge badge-primary mx-1 text-white"><i className="fas fa-gavel"></i> Moderador</a>
+                    <span className="badge badge-primary mx-1 text-white"><i className="fas fa-gavel"></i> Moderador</span>
                 ]
             },
             {
                 name: "CrewDark",
                 time: "3 meses",
                 badges: [
-                    <a className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Administrador</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>
+                    <span className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Administrador</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>
                 ]
             },
             {
                 name: "Realiacity",
                 time: "1 año",
                 badges: [
-                    <a className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado SV</a>,
-                    <a className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>
+                    <span className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado SV</span>,
+                    <span className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>
                 ]
             },
             {
                 name: "RoyalGaming",
                 time: "7 meses",
                 badges: [
-                    <a className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>
+                    <span className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>
                 ]
             },
             {
                 name: "PSF",
                 time: "5 meses",
                 badges: [
-                    <a className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado Staff</a>,
-                    <a className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>
+                    <span className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado Staff</span>,
+                    <span className="badge badge-success mx-1 my-1 text-white"><i className="fas fa-gavel"></i> Superadmin</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>
                 ]
             },
             {
                 name: "Liberty Servers",
                 time: "11 meses",
                 badges: [
-                    <a className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Fundador</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>,
-                    <a className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</a>
+                    <span className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Fundador</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>,
+                    <span className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</span>
                 ]
             },
             {
                 name: "Scabb",
                 time: "2 meses",
                 badges: [
-                    <a className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado PrisonRP</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>,
-                    <a className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</a>
+                    <span className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado PrisonRP</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>,
+                    <span className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</span>
                 ]
             },
             {
                 name: "Cosa Nostra",
                 time: "3 meses",
                 badges: [
-                    <a className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado DarkRP</a>,
-                    <a className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</a>,
-                    <a className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</a>
+                    <span className="badge badge-danger mx-1 my-1 text-white"><i className="fas fa-user"></i> Encargado DarkRP</span>,
+                    <span className="badge badge-warning mx-1 my-1 text-white"><i className="fas fa-code"></i> Configurador</span>,
+                    <span className="badge badge-primary mx-1 my-1 text-white"><i className="fas fa-code"></i> Programador</span>
                 ]
             }
         ];
