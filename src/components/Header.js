@@ -1,5 +1,7 @@
+// Basic
 import React, { Component } from "react";
 
+// Header Component
 class Header extends Component {
     render() {
         return (
@@ -12,7 +14,6 @@ class Header extends Component {
                         <a className="btn btn-primary mx-2 animation_buttontwo" href="https://twitter.com/thejaviertc" role="button"><i className="fab fa-twitter"></i> Twitter</a>
                         <a className="btn btn-primary mx-2 animation_buttonthree" href="https://github.com/thejaviertc" role="button"><i className="fab fa-github"></i> Github</a>
                     </div>
-                    <p className="h5 text-center pt-4 animation_second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, quibusdam soluta? Excepturi sit dolorem iusto. Ab nulla nostrum, ratione incidunt sint a debitis, blanditiis commodi corrupti, voluptate natus minus molestiae?</p>
                 </div>
             </section>
         );

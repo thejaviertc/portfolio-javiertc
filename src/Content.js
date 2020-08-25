@@ -1,8 +1,12 @@
+// Basic
 import React, { Component } from "react";
+
+// Components
 import Community from "./components/Community";
 import Abilities from "./components/Abilities";
 import Projects from "./components/Projects";
 
+// Content Component
 class Content extends Component {
     render() {
         return (
