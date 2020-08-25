@@ -58,7 +58,7 @@ class Projects extends Component {
                     <span class="badge badge-success text-white mx-1 my-1"><i class="fas fa-code"></i> NodeJS</span>
                 ],
                 text: "Bot de Discord hecho para Cosa Nostra, el cual su función es dar autosoporte a la gente, indicar la cantidad de personas jugando al servidor y nuevos comandos para hacer un chat IC en el propio Discord como /twitter, /policía, /ems, /ayuntamiento...",
-                link: "https://github.com/thejaviertc/cosa_nostra_bot"
+                link: "https://github.com/thejaviertc/discord-bot"
             },
             {
                 image: emergenciasImg,
@@ -86,7 +86,7 @@ class Projects extends Component {
                                     {project.badges}
                                 </h5>
                                 <p>{project.text}</p>
-                                <span class="btn btn-primary mx-2" href={project.link} role="button"><i class="fas fa-project-diagram"></i> Acceso</span>
+                                <a class="btn btn-primary mx-2" href={project.link} role="button"><i class="fas fa-project-diagram"></i> Acceso</a>
                             </div>
                         </div>
                     </div>
