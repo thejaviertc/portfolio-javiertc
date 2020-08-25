@@ -1,10 +1,13 @@
+//
 import React, { Component } from "react";
 
+//
+import steamStatsImg from "../img/steamstats.png"
 class Projects extends Component {
     render() {
         const projects = [
             {
-                image: "steamstats.png",
+                image: {steamStatsImg},
                 name: "Steam Workshop",
                 badges: [
                     <a class="badge badge-danger text-white mx-1 my-1"><i class="fas fa-code"></i> WIP</a>,
