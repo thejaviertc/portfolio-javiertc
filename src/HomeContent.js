@@ -7,7 +7,7 @@ import Abilities from "./components/Abilities";
 import Projects from "./components/Projects";
 
 // Content Component
-class Content extends Component {
+class HomeContent extends Component {
     render() {
         return (
             <section id="community" className="py-5">
@@ -23,4 +23,4 @@ class Content extends Component {
     }
 }
 
-export default Content;
+export default HomeContent;

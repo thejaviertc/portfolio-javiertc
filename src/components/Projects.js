@@ -68,7 +68,7 @@ class Projects extends Component {
                     <span class="badge badge-primary mx-1 my-1 text-white"><i class="fas fa-code"></i> Diseño</span>
                 ],
                 text: "Vehículos de Emergencias de España, para que las comunidades de Garry's Mod de Roleplay tengan una gran variedad de vehículos de emergencias españoles.",
-                link: "evl.html"
+                link: "/vehiculos"
             }
         ];
 
@@ -78,7 +78,7 @@ class Projects extends Component {
                     <div className="card-body">
                         <div class="row">
                             <div class="col-4 d-none d-lg-block">
-                                <img class="img-fluid" alt="Imagen de Proyecto" src={project.image}/>
+                                <img class="img-fluid" alt="Imagen de Proyecto" src={project.image} />
                             </div>
                             <div class="col-12 col-md-8 text-center text-md-left">
                                 <h4 class="card-title text-white">{project.name}:</h4>
