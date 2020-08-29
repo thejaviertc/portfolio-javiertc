@@ -38,7 +38,7 @@ class Abilities extends Component {
             {
                 name: "ReactJS",
                 type: "danger",
-                width: 25
+                width: 30
             },
             {
                 name: "GLua",
