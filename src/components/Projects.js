@@ -68,7 +68,7 @@ class Projects extends Component {
                     <span class="badge badge-primary mx-1 my-1 text-white"><i class="fas fa-code"></i> Diseño</span>
                 ],
                 text: "Vehículos de Emergencias de España, para que las comunidades de Garry's Mod de Roleplay tengan una gran variedad de vehículos de emergencias españoles.",
-                link: "/vehiculos"
+                link: "/portfolio-javiertc/vehiculos"
             }
         ];
 
