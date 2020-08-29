@@ -27,23 +27,23 @@ class Abilities extends Component {
             },
             {
                 name: "Javascript",
-                type: "danger",
+                type: "warning",
                 width: 40
             },
             {
                 name: "NodeJS",
+                type: "warning",
+                width: 40
+            },
+            {
+                name: "ReactJS",
                 type: "danger",
-                width: 30
+                width: 25
             },
             {
                 name: "GLua",
                 type: "danger",
                 width: 20
-            },
-            {
-                name: "ReactJS",
-                type: "danger",
-                width: 10
             }
         ];
 
