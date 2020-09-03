@@ -22,7 +22,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/portfolio-javiertc/" exact component={Home} />
-          <Route path="/vehiculos" exact component={Vehicles} />
+          <Route path="/portfolio-javiertc/vehiculos" exact component={Vehicles} />
         </Switch>
       </div>
     </Router>
