@@ -1,32 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio-javiertc/static/css/main.c1861947.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.d324bab6.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.d324bab6.chunk.js.map",
+    "main.js": "/portfolio-javiertc/static/js/main.1b7291d6.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.1b7291d6.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.e4a73172.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.e4a73172.js.map",
     "static/css/2.a9478c95.chunk.css": "/portfolio-javiertc/static/css/2.a9478c95.chunk.css",
-    "static/js/2.ff06e6e5.chunk.js": "/portfolio-javiertc/static/js/2.ff06e6e5.chunk.js",
-    "static/js/2.ff06e6e5.chunk.js.map": "/portfolio-javiertc/static/js/2.ff06e6e5.chunk.js.map",
+    "static/js/2.2af4d126.chunk.js": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js",
+    "static/js/2.2af4d126.chunk.js.map": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
-    "precache-manifest.6a0f1208fe02e2ae0e8887620e594470.js": "/portfolio-javiertc/precache-manifest.6a0f1208fe02e2ae0e8887620e594470.js",
+    "precache-manifest.a2455178a565d09ffdeb06d48b797795.js": "/portfolio-javiertc/precache-manifest.a2455178a565d09ffdeb06d48b797795.js",
     "service-worker.js": "/portfolio-javiertc/service-worker.js",
     "static/css/2.a9478c95.chunk.css.map": "/portfolio-javiertc/static/css/2.a9478c95.chunk.css.map",
     "static/css/main.c1861947.chunk.css.map": "/portfolio-javiertc/static/css/main.c1861947.chunk.css.map",
-    "static/js/2.ff06e6e5.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.ff06e6e5.chunk.js.LICENSE.txt",
+    "static/js/2.2af4d126.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js.LICENSE.txt",
     "static/media/discordbot.png": "/portfolio-javiertc/static/media/discordbot.8e31b61e.png",
     "static/media/emergencias.jpg": "/portfolio-javiertc/static/media/emergencias.0fa0c5e0.jpg",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.ee09ad75.woff",
-    "static/media/gmodespana.jpg": "/portfolio-javiertc/static/media/gmodespana.5a8f66a8.jpg",
-    "static/media/policepd.png": "/portfolio-javiertc/static/media/policepd.05fce00f.png",
-    "static/media/steamstats.png": "/portfolio-javiertc/static/media/steamstats.468faa52.png",
-    "static/media/webcosanostra.png": "/portfolio-javiertc/static/media/webcosanostra.208ddd11.png"
+    "static/media/steamstats.png": "/portfolio-javiertc/static/media/steamstats.468faa52.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e4a73172.js",
     "static/css/2.a9478c95.chunk.css",
-    "static/js/2.ff06e6e5.chunk.js",
+    "static/js/2.2af4d126.chunk.js",
     "static/css/main.c1861947.chunk.css",
-    "static/js/main.d324bab6.chunk.js"
+    "static/js/main.1b7291d6.chunk.js"
   ]
 }
