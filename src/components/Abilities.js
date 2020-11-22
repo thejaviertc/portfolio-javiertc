@@ -8,12 +8,12 @@ class Abilities extends Component {
             {
                 name: "Servidores Garry's Mod",
                 type: "success",
-                width: 100
+                width: 90
             },
             {
                 name: "HTML",
                 type: "success",
-                width: 100
+                width: 90
             },
             {
                 name: "CSS",
@@ -21,29 +21,34 @@ class Abilities extends Component {
                 width: 80
             },
             {
-                name: "Diseño Gráfico",
+                name: "C",
                 type: "warning",
                 width: 50
             },
             {
                 name: "Javascript",
                 type: "warning",
-                width: 40
+                width: 45
             },
             {
                 name: "NodeJS",
+                type: "warning",
+                width: 45
+            },
+            {
+                name: "Diseño Gráfico",
                 type: "warning",
                 width: 40
             },
             {
                 name: "ReactJS",
                 type: "danger",
-                width: 30
+                width: 20
             },
             {
-                name: "GLua",
+                name: "Garry's Mod Lua",
                 type: "danger",
-                width: 20
+                width: 10
             }
         ];
 
