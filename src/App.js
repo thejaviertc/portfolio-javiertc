@@ -18,15 +18,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path="/portfolio-javiertc/" exact component={Home} />
-          <Route path="/portfolio-javiertc/vehiculos" exact component={Vehicles} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/vehiculos" component={Vehicles} />
         </Switch>
-      </div>
-    </Router>
-
+      </Router>
+    </div >
   );
 }
 

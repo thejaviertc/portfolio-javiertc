@@ -78,7 +78,7 @@ class Projects extends Component {
                     text: "Diseño"
                 },
                 text: "Vehículos de Emergencias de España, para que las comunidades de Garry's Mod de Roleplay tengan una gran variedad de vehículos de emergencias españoles.",
-                link: "/portfolio-javiertc/vehiculos"
+                link: "/vehiculos"
             }
         ];
 
