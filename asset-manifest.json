@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-javiertc/static/css/main.c1861947.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.bd84d257.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.bd84d257.chunk.js.map",
+    "main.js": "/portfolio-javiertc/static/js/main.94b9891b.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.94b9891b.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.e4a73172.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.e4a73172.js.map",
     "static/css/2.a9478c95.chunk.css": "/portfolio-javiertc/static/css/2.a9478c95.chunk.css",
-    "static/js/2.2af4d126.chunk.js": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js",
-    "static/js/2.2af4d126.chunk.js.map": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js.map",
+    "static/js/2.4bbf9def.chunk.js": "/portfolio-javiertc/static/js/2.4bbf9def.chunk.js",
+    "static/js/2.4bbf9def.chunk.js.map": "/portfolio-javiertc/static/js/2.4bbf9def.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
-    "precache-manifest.c114c5b71ece491977ff23f7caff9770.js": "/portfolio-javiertc/precache-manifest.c114c5b71ece491977ff23f7caff9770.js",
+    "precache-manifest.75555f5a26023b2ed73a951cccd21a93.js": "/portfolio-javiertc/precache-manifest.75555f5a26023b2ed73a951cccd21a93.js",
     "service-worker.js": "/portfolio-javiertc/service-worker.js",
     "static/css/2.a9478c95.chunk.css.map": "/portfolio-javiertc/static/css/2.a9478c95.chunk.css.map",
     "static/css/main.c1861947.chunk.css.map": "/portfolio-javiertc/static/css/main.c1861947.chunk.css.map",
-    "static/js/2.2af4d126.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.2af4d126.chunk.js.LICENSE.txt",
+    "static/js/2.4bbf9def.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.4bbf9def.chunk.js.LICENSE.txt",
     "static/media/discordbot.png": "/portfolio-javiertc/static/media/discordbot.8e31b61e.png",
     "static/media/emergencias.jpg": "/portfolio-javiertc/static/media/emergencias.0fa0c5e0.jpg",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.ee09ad75.woff",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.e4a73172.js",
     "static/css/2.a9478c95.chunk.css",
-    "static/js/2.2af4d126.chunk.js",
+    "static/js/2.4bbf9def.chunk.js",
     "static/css/main.c1861947.chunk.css",
-    "static/js/main.bd84d257.chunk.js"
+    "static/js/main.94b9891b.chunk.js"
   ]
 }
