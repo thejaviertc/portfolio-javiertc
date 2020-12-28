@@ -9,6 +9,7 @@
 
 # **Todo List:**
 - [ ] Do a rework.
+- [ ] Thinking more things...
 
 # **Suggestions:**
 ## **Do you have a suggestion? Make an issue.**
