@@ -8,7 +8,7 @@ import React from 'react';
 
 // Other
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Switch, Route, HashRouter } from "react-router-dom";
 
 // Components
 import Header from "./components/Header";
@@ -19,12 +19,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/vehiculos" component={Vehicles} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div >
   );
 }
