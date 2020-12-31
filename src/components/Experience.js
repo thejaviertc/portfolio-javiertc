@@ -2,8 +2,10 @@
 import React, { Component } from "react";
 
 // Images
+import cssImg from "../img/css3.svg";
 import cImg from "../img/clang.svg";
 import javaImg from "../img/java.svg";
+import bashImg from "../img/bash.svg";
 
 // Components
 import Hr from "./Hr";
@@ -21,7 +23,7 @@ class Experience extends Component {
                             <h3 className="text-center pt-5 pb-3">Frontend<Hr width="200px" /></h3>
                             <div className="row">
                                 <ExperienceItem column="col-6" text="HTML" img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="75%" type="success" />
-                                <ExperienceItem column="col-6" text="CSS" img="https://codingcolorado.com/public/images/web-icons/css3.svg" width="50%" type="warning" />
+                                <ExperienceItem column="col-6" text="CSS" img={cssImg} width="50%" type="warning" />
                                 <ExperienceItem column="col-6" text="Bootstrap" img="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="50%" type="warning" />
                                 <ExperienceItem column="col-6" text="JavaScript" img="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="25%" type="danger" />
                                 <ExperienceItem column="col-12" text="ReactJS" img="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" width="25%" type="danger" />
@@ -39,7 +41,7 @@ class Experience extends Component {
                         <div className="col-12">
                             <h3 className="text-center pt-5 pb-3">Herramientas<Hr width="290px" /></h3>
                             <div className="row">
-                                <ExperienceItem column="col-6" text="Bash" img="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" width="50%" type="warning" />
+                                <ExperienceItem column="col-6" text="Bash" img={bashImg} width="50%" type="warning" />
                                 <ExperienceItem column="col-6" text="Linux" img="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="25%" type="danger" />
                                 <ExperienceItem column="col-6" text="Git" img="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" width="25%" type="danger" />
                                 <ExperienceItem column="col-6" text="Adobe Photoshop" img="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" width="25%" type="danger" />
