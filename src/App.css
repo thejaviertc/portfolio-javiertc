@@ -1,69 +1,70 @@
+/*############
+### Basico ###
+############*/
+
+@font-face {
+	font-family: 'Basier Circle';
+	src: local('Basier Circle'), url(./fonts/basiercircle/BasierCircle-Bold.ttf) format('truetype');
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+	color: white;
+	font-family: 'Basier Circle';
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 85px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+.badge {
+	font-size: 20px;
+}
+
+/*###############
+### Secciones ###
+###############*/
+
+#header {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
 /*#############
 ### Colores ###
 #############*/
-
-body {
-	background-color: #00aeff !important;
-}
 
 .bg-primary {
 	background-color: #00aeff !important;
 }
 
-.btn-primary {
-	background-color: #00aeff !important;
-	border-color: #ffffff !important;
+.bg-secondary {
+	background-color: #0B95F1 !important;
 }
 
-.bg-secondary {
-	background-color: #ffffff !important;
+.btn-info {
+	background-color: #0B95F1 !important;
 }
 
 .progress {
 	background-color: #ffffff !important;
 }
 
-/*##############
-#### Básico ####
-##############*/
-
-html {
-    scroll-behavior: smooth;
-}
-
-h1{
-	color: #ffffff;
-	font-weight: 500 !important;
-}
-
-p{
-	color: #ffffff;
-	font-weight: 500 !important;
-	font-size: 15px;
-}
-
-hr{
+hr {
 	background-color: #ffffff;
 	color: #ffffff;
 	height: 5px;
-}
-
-#footer {
-    border-top: solid;
-    border-width: thick;
-    border-color: #ffffff;
-}
-
-.border-container {
-    border: solid;
-    border-width: thick;
-    border-color: #ffffff;
-}
-
-.card {
-    border: 5px solid #ffffff;
-}
-
-img {
-    border: 2px solid #ffffff;
 }
