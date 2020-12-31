@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-javiertc/static/css/main.3bf3be7b.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.06a2d2a4.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.06a2d2a4.chunk.js.map",
+    "main.js": "/portfolio-javiertc/static/js/main.1abe9b61.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.1abe9b61.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js.map",
     "static/css/2.0284f57b.chunk.css": "/portfolio-javiertc/static/css/2.0284f57b.chunk.css",
@@ -16,14 +16,16 @@
     "static/js/2.e6f7ee67.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.e6f7ee67.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
     "static/media/clang.55a9c086.svg": "/portfolio-javiertc/static/media/clang.55a9c086.svg",
+    "static/media/emergencias.f64d4710.jpg": "/portfolio-javiertc/static/media/emergencias.f64d4710.jpg",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.dfaa060a.eot",
-    "static/media/java.20e92ef2.svg": "/portfolio-javiertc/static/media/java.20e92ef2.svg"
+    "static/media/java.20e92ef2.svg": "/portfolio-javiertc/static/media/java.20e92ef2.svg",
+    "static/media/steamstats.10bc88ad.png": "/portfolio-javiertc/static/media/steamstats.10bc88ad.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3856d4e6.js",
     "static/css/2.0284f57b.chunk.css",
     "static/js/2.e6f7ee67.chunk.js",
     "static/css/main.3bf3be7b.chunk.css",
-    "static/js/main.06a2d2a4.chunk.js"
+    "static/js/main.1abe9b61.chunk.js"
   ]
 }
