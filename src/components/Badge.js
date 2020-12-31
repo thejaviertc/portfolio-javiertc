@@ -1,11 +1,13 @@
 // Basic
-import React from "react";
+import React, { Component } from "react";
 
 // Badge Component
-function Badge(props) {
-    return (
-        <span className={"badge " + props.color + " text-white mx-1 my-1 text-white"}><i class={props.icon}></i> {props.text}</span>
-    )
+class Badge extends Component {
+    render() {
+        return (
+            <span className={"badge badge-" + this.props.type + " mx-1 my-1 text-white"}><i className="fas fa-code"></i> {this.props.text}</span>
+        );
+    }
 }
 
 export default Badge;

@@ -1,18 +1,24 @@
 // Basic
 import React, { Component } from "react";
 
+// Components
+import Button from "./Button";
+
 // Header Component
 class Header extends Component {
     render() {
         return (
-            <section id="header" className="py-5">
+            <section id="header" className="bg-primary">
                 <div className="container">
-                    <h1 className="display-3 text-center animation_first">Javiertc <i className="fas fa-code"></i></h1>
-                    <h1 className="display-5 text-center animation_first">Estudiante de Ingeniería de Software</h1>
+                    <h1 className="text-center">Javiertc <i className="fas fa-code"></i></h1>
+                    <h2 className="text-center">Estudiante de Ingeniería de Software</h2>
                     <div className="d-flex justify-content-center pt-3">
-                        <a className="btn btn-primary mx-2 animation_buttonthree" href="https://github.com/thejaviertc" role="button"><i className="fab fa-github"></i> Github</a>
-                        <a className="btn btn-primary mx-2 animation_buttontwo" href="https://twitter.com/thejaviertc" role="button"><i className="fab fa-twitter"></i> Twitter</a>
-                        <a className="btn btn-primary mx-2 animation_buttonone" href="https://steamcommunity.com/id/javiertc/" role="button"><i className="fab fa-steam"></i> Steam</a>
+                        <Button text="Github" icon="fab fa-github" link="https://github.com/thejaviertc" />
+                        <Button text="Twitter" icon="fab fa-twitter" link="https://twitter.com/thejaviertc" />
+                        <Button text="Steam" icon="fab fa-steam" link="https://steamcommunity.com/id/javiertc/" />
+                    </div>
+                    <div className="d-flex justify-content-center pt-3">
+                        <a className="btn btn-info mx-2" href="#experience" role="button">Ver mi Trabajo <i className="fas fa-arrow-down"></i></a>
                     </div>
                 </div>
             </section>

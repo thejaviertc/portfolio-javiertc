@@ -8,43 +8,20 @@ import React from 'react';
 
 // Other
 import './App.css';
-import { HashRouter as Switch, Route, HashRouter } from "react-router-dom";
 
 // Components
 import Header from "./components/Header";
-import HomeContent from './HomeContent';
-import VehiclesContent from './VehiclesContent';
-import Footer from './components/Footer';
+import Experience from "./components/Experience";
+import Project from "./components/Project";
 
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/vehiculos" component={Vehicles} />
-        </Switch>
-      </HashRouter>
+      <Header />
+      <Experience />
+      <Project />
     </div >
   );
 }
-
-const Home = () => (
-  <div>
-    <Header />
-    <hr />
-    <HomeContent />
-    <Footer />
-  </div>
-)
-
-const Vehicles = () => (
-  <div>
-    <Header />
-    <hr />
-    <VehiclesContent />
-    <Footer />
-  </div>
-)
 
 export default App;
