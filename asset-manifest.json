@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-javiertc/static/css/main.75e64dae.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.e09e78d5.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.e09e78d5.chunk.js.map",
+    "main.js": "/portfolio-javiertc/static/js/main.85a36f53.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.85a36f53.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js.map",
     "static/css/2.0284f57b.chunk.css": "/portfolio-javiertc/static/css/2.0284f57b.chunk.css",
@@ -15,7 +15,9 @@
     "static/css/main.75e64dae.chunk.css.map": "/portfolio-javiertc/static/css/main.75e64dae.chunk.css.map",
     "static/js/2.e6f7ee67.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.e6f7ee67.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
+    "static/media/bash.968f3f62.svg": "/portfolio-javiertc/static/media/bash.968f3f62.svg",
     "static/media/clang.55a9c086.svg": "/portfolio-javiertc/static/media/clang.55a9c086.svg",
+    "static/media/css3.8af7562c.svg": "/portfolio-javiertc/static/media/css3.8af7562c.svg",
     "static/media/emergencies.55d139a0.jpg": "/portfolio-javiertc/static/media/emergencies.55d139a0.jpg",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.dfaa060a.eot",
     "static/media/java.20e92ef2.svg": "/portfolio-javiertc/static/media/java.20e92ef2.svg",
@@ -26,6 +28,6 @@
     "static/css/2.0284f57b.chunk.css",
     "static/js/2.e6f7ee67.chunk.js",
     "static/css/main.75e64dae.chunk.css",
-    "static/js/main.e09e78d5.chunk.js"
+    "static/js/main.85a36f53.chunk.js"
   ]
 }
