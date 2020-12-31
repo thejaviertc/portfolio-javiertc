@@ -2,8 +2,8 @@
 import React, { Component } from "react";
 
 // Images
-import steamStatsImg from "../img/projects/steamstats.png";
-import emergenciasImg from "../img/projects/emergencias.jpg";
+import steamStatsImg from "../img/projects/steamstats.jpg";
+import emergenciasImg from "../img/projects/emergencies.jpg";
 
 // Components
 import Hr from "./Hr";
