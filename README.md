@@ -8,7 +8,6 @@
 ## **https://thejaviertc.github.io/portfolio-javiertc/**
 
 # **Todo List:**
-- [ ] Do a rework.
 - [ ] Thinking more things...
 
 # **Suggestions:**
