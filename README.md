@@ -8,6 +8,8 @@
 ## **https://thejaviertc.github.io/portfolio-javiertc/**
 
 # **Todo List:**
+- [x] Make a Full Rework.
+- [x] Add background animations.
 - [ ] Thinking more things...
 
 # **Suggestions:**
