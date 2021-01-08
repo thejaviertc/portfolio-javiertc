@@ -10,7 +10,7 @@
 # **Todo List:**
 - [x] Make a Full Rework.
 - [x] Add background animations.
-- [ ] Thinking more things...
+- [ ] Thinking...
 
 # **Suggestions:**
 ## **Do you have a suggestion? Make an issue.**
