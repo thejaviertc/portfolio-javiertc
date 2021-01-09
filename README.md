@@ -1,5 +1,4 @@
 # **Javiertc's Portfolio**
-<!-- ![Javiertc's Portfolio](https://thejaviertc.github.io/portfolio-javiertc/static/media/steamstats.c83daab1.png) -->
 
 # **About it:**
 ## **This is my Portfolio, where I post all my info, knowledge, projects...**
@@ -10,7 +9,7 @@
 # **Todo List:**
 - [x] Make a Full Rework.
 - [x] Add background animations.
-- [ ] Thinking more things...
+- [ ] Thinking...
 
 # **Suggestions:**
 ## **Do you have a suggestion? Make an issue.**
