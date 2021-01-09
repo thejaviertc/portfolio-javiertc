@@ -10,18 +10,6 @@ class Header extends Component {
         return (
             <section id="header" className="bg-primary">
                 <div className="container">
-                    <ul class="circles d-none d-md-block">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
                     <h1 className="text-center">Javiertc <i className="fas fa-code"></i></h1>
                     <h2 className="text-center">Estudiante de Ingeniería de Software</h2>
                     <div className="d-flex justify-content-center pt-3">
