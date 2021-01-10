@@ -1,15 +1,15 @@
 # **Javiertc's Portfolio**
 
-# **About it:**
-## **This is my Portfolio, where I post all my info, knowledge, projects...**
+## **About it:**
+### **This is my Portfolio, where I post all my info, knowledge, projects...**
 
-# **Live Website:**
-## **https://thejaviertc.github.io/portfolio-javiertc/**
+## **Live Website:**
+### **https://thejaviertc.github.io/portfolio-javiertc/**
 
-# **Todo List:**
+## **Todo List:**
 - [x] Make a Full Rework.
 - [x] Add background animations.
 - [ ] Thinking...
 
-# **Suggestions:**
-## **Do you have a suggestion? Make an issue.**
+## **Suggestions:**
+### **Do you have a suggestion? Make an issue.**
