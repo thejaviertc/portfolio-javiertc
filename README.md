@@ -8,7 +8,6 @@
 
 ## **Todo List:**
 - [x] Make a Full Rework.
-- [x] Add background animations.
 - [ ] Thinking...
 
 ## **Suggestions:**
