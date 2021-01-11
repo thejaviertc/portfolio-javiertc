@@ -25,15 +25,15 @@ class Experience extends Component {
                                 <ExperienceItem column="col-6" text="HTML" img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="75%" type="success" />
                                 <ExperienceItem column="col-6" text="CSS" img={cssImg} width="50%" type="warning" />
                                 <ExperienceItem column="col-6" text="Bootstrap" img="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="50%" type="warning" />
-                                <ExperienceItem column="col-6" text="JavaScript" img="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="25%" type="danger" />
-                                <ExperienceItem column="col-12" text="ReactJS" img="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" width="25%" type="danger" />
+                                <ExperienceItem column="col-6" text="JavaScript" img="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="40%" type="warning" />
+                                <ExperienceItem column="col-12" text="ReactJS" img="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" width="35%" type="warning" />
                             </div>
                         </div>
                         <div className="col-12 col-md-5">
                             <h3 className="text-center pt-5 pb-3">Programación<Hr width="290px" /></h3>
                             <div className="row">
                                 <ExperienceItem column="col-6" text="C" img={cImg} width="50%" type="warning" />
-                                <ExperienceItem column="col-6" text="NodeJS" img="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="50%" type="warning" />
+                                <ExperienceItem column="col-6" text="NodeJS" img="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="25%" type="danger" />
                                 <ExperienceItem column="col-6" text="Java" img={javaImg} width="25%" type="danger" />
                                 <ExperienceItem column="col-6" text="Express" img="https://upload.wikimedia.org/wikipedia/commons/b/b7/Express%2C_Inc._logo.svg" width="25%" type="danger" />
                             </div>
