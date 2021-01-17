@@ -8,7 +8,7 @@
 
 ## **Todo List:**
 - [x] Make a Full Rework.
-- [ ] Thinking...
+- [ ] Thinking more things...
 
 ## **Suggestions:**
 ### **Do you have a suggestion? Make an issue.**
