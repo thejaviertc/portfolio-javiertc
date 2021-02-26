@@ -17,7 +17,7 @@ class Experience extends Component {
         return (
             <section id="experience" className="bg-secondary py-5">
                 <div className="container">
-                    <h2 className="text-center">Experiencia<Hr width="300px" /></h2>
+                    <h2 className="text-center">Experience<Hr width="300px" /></h2>
                     <div className="row justify-content-between">
                         <div className="col-12 col-md-5">
                             <h3 className="text-center pt-5 pb-3">Frontend<Hr width="200px" /></h3>
@@ -30,7 +30,7 @@ class Experience extends Component {
                             </div>
                         </div>
                         <div className="col-12 col-md-5">
-                            <h3 className="text-center pt-5 pb-3">Programación<Hr width="290px" /></h3>
+                            <h3 className="text-center pt-5 pb-3">Programming<Hr width="290px" /></h3>
                             <div className="row">
                                 <ExperienceItem column="col-6" text="C" img={cImg} width="35%" type="warning" />
                                 <ExperienceItem column="col-6" text="Java" img={javaImg} width="35%" type="warning" />
@@ -39,7 +39,7 @@ class Experience extends Component {
                             </div>
                         </div>
                         <div className="col-12">
-                            <h3 className="text-center pt-5 pb-3">Herramientas<Hr width="290px" /></h3>
+                            <h3 className="text-center pt-5 pb-3">Tools<Hr width="130px" /></h3>
                             <div className="row">
                                 <ExperienceItem column="col-6 col-md-3" text="Bash" img={bashImg} width="35%" type="warning" />
                                 <ExperienceItem column="col-6 col-md-3" text="Git" img="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" width="25%" type="danger" />
