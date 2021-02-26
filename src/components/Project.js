@@ -4,7 +4,6 @@ import React, { Component } from "react";
 // Images
 import twitchImg from "../img/projects/twitch_data.jpg";
 import steamStatsImg from "../img/projects/steamstats.jpg";
-import emergenciasImg from "../img/projects/emergencies.jpg";
 
 // Components
 import Hr from "./Hr";
@@ -16,10 +15,9 @@ class Project extends Component {
         return (
             <section id="projects" className="bg-primary py-5">
                 <div className="container">
-                    <h2 className="text-center">Proyectos<Hr width="280px" /></h2>
-                    <ProjectItem position='0' title="Twitch Data" desc="Web hecha para que la gente introduzca a un Streamer de Twitch, y le devuelva información sobre el streamer, como sus seguidores, el tipo de streamer..." badge="ReactJS" type="warning" link="https://github.com/thejaviertc/twitch-data" image={twitchImg} />
-                    <ProjectItem position='1' title="Steam Workshop Stats" desc="Web hecha para que la gente introduzca su perfil de Steam, y le devuelva una lista con todos los addons que hayan publicado y sus estadísticas, como las visitas, favoritos... Además podrá ver las estadísticas totales." badge="NodeJS" type="success" link="https://github.com/thejaviertc/steam-workshop-stats" image={steamStatsImg} />
-                    <ProjectItem position='0' title="Vehículos de Emergencias" desc="Vehículos de Emergencias de España, para que las comunidades de Garry's Mod de Roleplay tengan una gran variedad de vehículos de emergencias españoles." badge="Diseño" type="primary" link="https://steamcommunity.com/id/javiertc/myworkshopfiles/?appid=4000" image={emergenciasImg} />
+                    <h2 className="text-center">Projects<Hr width="240px" /></h2>
+                    <ProjectItem position='0' title="Twitch Data" desc="Website made for people to introduce a Twitch Streamer, and return information about the streamer, such as his followers, the type of streamer, statistics of his videos..." badge="ReactJS" type="warning" link="https://github.com/thejaviertc/twitch-data" image={twitchImg} />
+                    <ProjectItem position='1' title="Steam Workshop Stats" desc="Website made for people to enter their Steam profile, and return a list with all the addons they have published and their statistics, such as visits, favorites ... You can also see the total statistics." badge="NodeJS" type="success" link="https://github.com/thejaviertc/steam-workshop-stats" image={steamStatsImg} />
                 </div>
             </section>
         );
