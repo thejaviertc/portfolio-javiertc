@@ -1,3 +1,5 @@
+![Main Image](https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/master/src/img/projects/main.jpg)
+
 # **Javiertc's Portfolio**
 
 ## **About it:**
