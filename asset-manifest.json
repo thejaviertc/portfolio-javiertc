@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-javiertc/static/css/main.3bf3be7b.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.39affc2a.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.39affc2a.chunk.js.map",
+    "main.css": "/portfolio-javiertc/static/css/main.24e125ed.chunk.css",
+    "main.js": "/portfolio-javiertc/static/js/main.9f6c6dec.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.9f6c6dec.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.3856d4e6.js.map",
     "static/css/2.0284f57b.chunk.css": "/portfolio-javiertc/static/css/2.0284f57b.chunk.css",
@@ -12,15 +12,14 @@
     "static/js/3.6ebd8270.chunk.js.map": "/portfolio-javiertc/static/js/3.6ebd8270.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
     "static/css/2.0284f57b.chunk.css.map": "/portfolio-javiertc/static/css/2.0284f57b.chunk.css.map",
-    "static/css/main.3bf3be7b.chunk.css.map": "/portfolio-javiertc/static/css/main.3bf3be7b.chunk.css.map",
+    "static/css/main.24e125ed.chunk.css.map": "/portfolio-javiertc/static/css/main.24e125ed.chunk.css.map",
     "static/js/2.e6f7ee67.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.e6f7ee67.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
-    "static/media/bash.968f3f62.svg": "/portfolio-javiertc/static/media/bash.968f3f62.svg",
+    "static/media/bash.d31503ed.svg": "/portfolio-javiertc/static/media/bash.d31503ed.svg",
     "static/media/clang.55a9c086.svg": "/portfolio-javiertc/static/media/clang.55a9c086.svg",
-    "static/media/css3.c522f734.svg": "/portfolio-javiertc/static/media/css3.c522f734.svg",
-    "static/media/emergencies.55d139a0.jpg": "/portfolio-javiertc/static/media/emergencies.55d139a0.jpg",
+    "static/media/css3.8af7562c.svg": "/portfolio-javiertc/static/media/css3.8af7562c.svg",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.dfaa060a.eot",
-    "static/media/java.20e92ef2.svg": "/portfolio-javiertc/static/media/java.20e92ef2.svg",
+    "static/media/java.83165dfb.svg": "/portfolio-javiertc/static/media/java.83165dfb.svg",
     "static/media/steamstats.d825241e.jpg": "/portfolio-javiertc/static/media/steamstats.d825241e.jpg",
     "static/media/twitch_data.456d10d3.jpg": "/portfolio-javiertc/static/media/twitch_data.456d10d3.jpg"
   },
@@ -28,7 +27,7 @@
     "static/js/runtime-main.3856d4e6.js",
     "static/css/2.0284f57b.chunk.css",
     "static/js/2.e6f7ee67.chunk.js",
-    "static/css/main.3bf3be7b.chunk.css",
-    "static/js/main.39affc2a.chunk.js"
+    "static/css/main.24e125ed.chunk.css",
+    "static/js/main.9f6c6dec.chunk.js"
   ]
 }
