@@ -1,4 +1,4 @@
-![Main Image](https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/master/src/img/projects/main.jpg)
+![Main Image](https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/master/src/img/github/main.jpg)
 
 # **Javiertc's Portfolio**
 
