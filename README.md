@@ -9,9 +9,5 @@
 ## **Live Website:**
 ### **https://thejaviertc.github.io/portfolio-javiertc/**
 
-## **Todo List:**
-- [x] Make a Full Rework.
-- [ ] Thinking more things...
-
 ## **Suggestions:**
 ### **Do you have a suggestion? Make an issue.**
