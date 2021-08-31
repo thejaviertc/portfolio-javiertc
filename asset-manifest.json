@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-javiertc/static/css/main.718580b8.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.5a0b4a81.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.5a0b4a81.chunk.js.map",
+    "main.css": "/portfolio-javiertc/static/css/main.d7749a4c.chunk.css",
+    "main.js": "/portfolio-javiertc/static/js/main.76343b11.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.76343b11.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.f45d0646.js",
     "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.f45d0646.js.map",
     "static/css/2.d95ec34f.chunk.css": "/portfolio-javiertc/static/css/2.d95ec34f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.0ddddc50.chunk.js.map": "/portfolio-javiertc/static/js/3.0ddddc50.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
     "static/css/2.d95ec34f.chunk.css.map": "/portfolio-javiertc/static/css/2.d95ec34f.chunk.css.map",
-    "static/css/main.718580b8.chunk.css.map": "/portfolio-javiertc/static/css/main.718580b8.chunk.css.map",
+    "static/css/main.d7749a4c.chunk.css.map": "/portfolio-javiertc/static/css/main.d7749a4c.chunk.css.map",
     "static/js/2.22613943.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.22613943.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
     "static/media/css3.8af7562c.svg": "/portfolio-javiertc/static/media/css3.8af7562c.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.f45d0646.js",
     "static/css/2.d95ec34f.chunk.css",
     "static/js/2.22613943.chunk.js",
-    "static/css/main.718580b8.chunk.css",
-    "static/js/main.5a0b4a81.chunk.js"
+    "static/css/main.d7749a4c.chunk.css",
+    "static/js/main.76343b11.chunk.js"
   ]
 }
