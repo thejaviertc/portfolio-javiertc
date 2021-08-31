@@ -15,7 +15,7 @@ class ProjectItem extends Component {
                         <h3 className="text-center text-md-left">{this.props.title}</h3>
                         <p className="text-center text-md-left"><Badge text={this.props.badge} type={this.props.type} /></p>
                         <h4 className="text-center text-md-left py-3">{this.props.desc}</h4>
-                        <div className="d-flex justify-content-md-start justify-content-center pt-3">
+                        <div className="d-flex justify-content-center pt-3">
                             <Button text="Repository" icon="fab fa-github" link={this.props.link} />
                         </div>
                     </div>
@@ -35,7 +35,7 @@ class ProjectItem extends Component {
                         <h3 className="text-center text-md-left">{this.props.title}</h3>
                         <p className="text-center text-md-left"><Badge text={this.props.badge} type={this.props.type} /></p>
                         <h4 className="text-center text-md-left py-3">{this.props.desc}</h4>
-                        <div className="d-flex justify-content-md-start justify-content-center pt-3">
+                        <div className="d-flex justify-content-center pt-3">
                             <Button text="Repository" icon="fab fa-github" link={this.props.link} />
                         </div>
                     </div>
