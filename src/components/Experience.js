@@ -6,7 +6,6 @@ import cssImg from "../img/css3.svg";
 import javaImg from "../img/java.svg";
 
 // Components
-import Hr from "./Hr";
 import ExperienceItem from "./ExperienceItem";
 
 // Experience Component
@@ -15,10 +14,10 @@ class Experience extends Component {
         return (
             <section id="experience" className="bg-secondary py-5">
                 <div className="container">
-                    <h2 className="text-center">Experience<Hr width="300px" /></h2>
+                    <h2 className="text-center">Experience</h2>
                     <div className="row justify-content-between">
                         <div className="col-12 col-md-5">
-                            <h3 className="text-center pt-5 pb-3">Frontend<Hr width="200px" /></h3>
+                            <h3 className="text-center pt-5 pb-3">Frontend</h3>
                             <div className="row">
                                 <ExperienceItem column="col-6" text="HTML" img="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="75%" type="success" />
                                 <ExperienceItem column="col-6" text="CSS" img={cssImg} width="50%" type="warning" />
@@ -27,7 +26,7 @@ class Experience extends Component {
                             </div>
                         </div>
                         <div className="col-12 col-md-5">
-                            <h3 className="text-center pt-5 pb-3">Programming<Hr width="290px" /></h3>
+                            <h3 className="text-center pt-5 pb-3">Programming</h3>
                             <div className="row">
                                 <ExperienceItem column="col-6" text="Java" img={javaImg} width="35%" type="warning" />
                                 <ExperienceItem column="col-6" text="NodeJS" img="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="25%" type="danger" />
@@ -36,7 +35,7 @@ class Experience extends Component {
                             </div>
                         </div>
                         <div className="col-12">
-                            <h3 className="text-center pt-5 pb-3">Tools<Hr width="130px" /></h3>
+                            <h3 className="text-center pt-5 pb-3">Tools</h3>
                             <div className="row">
                                 <ExperienceItem column="col-6 col-md-4" text="Git" img="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" width="25%" type="danger" />
                                 <ExperienceItem column="col-6 col-md-4" text="Adobe Photoshop" img="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" width="25%" type="danger" />

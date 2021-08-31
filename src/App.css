@@ -73,11 +73,3 @@ h3 {
 .progress {
 	background-color: #ffffff !important;
 }
-
-hr {
-	margin: none;
-	background-color: #ffffff !important;
-	color: #ffffff !important;
-	height: 5px !important;
-	opacity: 1 !important;
-}
