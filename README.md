@@ -1,9 +1,8 @@
 ![Main Image](https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/src/img/github/main.jpg)
+[![Build](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/ghpages.yml/badge.svg?branch=main)](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/ghpages.yml)
+![Dependencies](https://david-dm.org/thejaviertc/portfolio-javiertc.svg)
 
 # **Javiertc's Portfolio**
-[![Build](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/ghpages.yml/badge.svg?branch=main)](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/ghpages.yml)
-
-## **About it:**
 ### **This is my Portfolio, where I post all my info, knowledge, projects...**
 
 ## **Live Website:**
