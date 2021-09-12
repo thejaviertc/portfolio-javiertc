@@ -16,7 +16,7 @@ class ProjectItem extends Component {
                         <p className="text-center text-md-left"><Badge text={this.props.badge} type={this.props.type} /></p>
                         <h4 className="text-center text-md-left py-3">{this.props.desc}</h4>
                         <div className="d-flex justify-content-center pt-3">
-                            <Button text="Live Website" icon="fab fa-github" link={this.props.websitelink} />
+                            <Button text="Live Website" icon="fas fa-wifi" link={this.props.websitelink} />
                             <Button text="Repository" icon="fab fa-github" link={this.props.githublink} />
                         </div>
                     </div>
@@ -37,7 +37,7 @@ class ProjectItem extends Component {
                         <p className="text-center text-md-left"><Badge text={this.props.badge} type={this.props.type} /></p>
                         <h4 className="text-center text-md-left py-3">{this.props.desc}</h4>
                         <div className="d-flex justify-content-center pt-3">
-                            <Button text="Live Website" icon="fab fa-github" link={this.props.websitelink} />
+                            <Button text="Live Website" icon="fas fa-wifi" link={this.props.websitelink} />
                             <Button text="Repository" icon="fab fa-github" link={this.props.githublink} />
                         </div>
                     </div>
