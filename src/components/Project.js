@@ -11,8 +11,8 @@ class Project extends Component {
             <section id="projects" className="bg-primary py-5">
                 <div className="container">
                     <h2 className="text-center">Projects</h2>
-                    <ProjectItem position='0' title="Twitch Data" desc="Website made for people to introduce a Twitch Streamer, and return information about the streamer, such as his followers, the type of streamer, statistics of his videos..." badge="ReactJS" type="warning" link="https://github.com/thejaviertc/twitch-data" image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/src/img/github/twitch-data.jpg" />
-                    <ProjectItem position='1' title="Steam Workshop Stats" desc="Website made for people to enter their Steam profile, and return a list with all the addons they have published and their statistics, such as visits, favorites ... You can also see the total statistics." badge="NodeJS" type="success" link="https://github.com/thejaviertc/steam-workshop-stats" image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/src/img/github/steam-workshop-stats.jpg" />
+                    <ProjectItem position='0' title="Twitch Data" desc="See the views and followers of your favourite Twitch Streamers!" badge="ReactJS" type="warning" websitelink="https://thejaviertc.github.io/twitch-stats/" githublink="https://github.com/thejaviertc/twitch-stats" image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/src/img/github/twitch-stats.jpg" />
+                    <ProjectItem position='1' title="Steam Workshop Stats" desc="See the views, subscriptions and favs of your Steam Workshop addons!" badge="NodeJS" type="success" websitelink="https://thejaviertc.github.io/steam-workshop-stats/" githublink="https://github.com/thejaviertc/steam-workshop-stats" image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/src/img/github/steam-workshop-stats.jpg" />
                 </div>
             </section>
         );

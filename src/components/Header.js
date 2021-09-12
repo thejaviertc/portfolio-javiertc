@@ -18,7 +18,7 @@ class Header extends Component {
                         <Button text="Steam" icon="fab fa-steam" link="https://steamcommunity.com/id/javiertc/" />
                     </div>
                     <div className="d-flex justify-content-center pt-3">
-                        <a className="btn btn-info mx-2" href="#experience" role="button">See my work <i className="fas fa-arrow-down"></i></a>
+                        <a className="btn btn-info mx-2" href="#experience" role="button">Let's Go <i className="fas fa-arrow-down"></i></a>
                     </div>
                 </div>
             </section>
