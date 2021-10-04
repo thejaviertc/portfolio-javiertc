@@ -14,7 +14,7 @@ class Header extends Component {
                     <h2 className="text-center">Software Engineering Student</h2>
                     <div className="d-flex justify-content-center pt-3">
                         <Button text="Github" icon="fab fa-github" link="https://github.com/thejaviertc" />
-                        <Button text="Twitter" icon="fab fa-twitter" link="https://twitter.com/thejaviertc" />
+                        <Button text="Twitter" icon="fab fa-twitter" link="https://twitter.com/javiertcesp" />
                         <Button text="Steam" icon="fab fa-steam" link="https://steamcommunity.com/id/javiertc/" />
                     </div>
                     <div className="d-flex justify-content-center pt-3">
