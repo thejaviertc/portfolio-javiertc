@@ -1,0 +1,75 @@
+// Fonts
+@font-face {
+	font-family: 'Basier Circle';
+	src: local('Basier Circle'), url(./fonts/basiercircle/BasierCircle-Bold.ttf) format('truetype');
+}
+
+// Variables
+$primary: #00AEFF;
+$secondary: #0B95F1;
+
+// Global
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Basier Circle';
+}
+
+// Custom
+#header {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+// Bootstrap
+.bg-primary {
+	background-color: $primary !important;
+}
+
+.bg-secondary {
+	background-color: $secondary !important;
+}
+
+.btn-info {
+	background-color: $secondary !important;
+	border-color: $secondary !important;
+}
+
+.badge {
+	font-size: 20px;
+}
+
+.btn {
+	color: white;
+	font-weight: 500 !important;
+}
+
+.btn:hover {
+	color: white;
+	border-color: white !important;
+}
+
+.progress {
+	background-color: white !important;
+}
+
+// Miscelaneous
+h1, h2, h3, h4 {
+	color: white;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 85px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}

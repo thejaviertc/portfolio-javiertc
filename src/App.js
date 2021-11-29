@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from 'react';
 
 // Other
-import './App.css';
+import './App.scss';
 
 // Components
 import Header from "./components/Header";
