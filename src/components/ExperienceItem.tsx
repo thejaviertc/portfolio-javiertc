@@ -1,8 +1,17 @@
 // Basic
-import React, { Component } from "react";
+import { Component } from "react";
+
+// Props Interface
+interface ExperienceItemProps {
+    column: string,
+    img: string,
+    text: string,
+    width: string,
+    type: string
+}
 
 // ExperienceItem Component
-class ExperienceItem extends Component {
+class ExperienceItem extends Component<ExperienceItemProps> {
     render() {
         return (
             <div className={this.props.column + " py-2"}  >
