@@ -1,6 +1,10 @@
 // Basic
 import { Component } from "react";
 
+// Components
+import Badge from "./Badge";
+import Button from "./Button";
+
 // Props Interface
 interface ProjectItemProps {
     position: string,
@@ -12,10 +16,6 @@ interface ProjectItemProps {
     githublink: string,
     image: string
 }
-
-// Components
-import Badge from "./Badge";
-import Button from "./Button";
 
 // ProjectItem Component
 class ProjectItem extends Component<ProjectItemProps> {
