@@ -12,7 +12,7 @@ interface ButtonProps {
 class Button extends Component<ButtonProps> {
     render() {
         return (
-            <a className="btn btn-info mx-2" href={this.props.link} role="button"><i className={this.props.icon}></i> {this.props.text}</a>
+            <a className="btn btn-secondary mx-2" href={this.props.link} role="button"><i className={this.props.icon}></i> {this.props.text}</a>
         );
     }
 }

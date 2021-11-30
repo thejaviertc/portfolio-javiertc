@@ -7,6 +7,7 @@
 // Variables
 $primary: #00AEFF;
 $secondary: #0B95F1;
+$ternary: #00577f;
 
 // Global
 html {
@@ -33,23 +34,24 @@ body {
 	background-color: $secondary !important;
 }
 
-.btn-info {
+.btn-secondary {
 	background-color: $secondary !important;
 	border-color: $secondary !important;
 }
 
+.btn-secondary:hover {
+    color: white !important;
+    background-color: $ternary !important;
+    border-color: $ternary;
+}
+
+.btn-secondary:focus {
+    border-color: $ternary !important;
+    box-shadow: none !important;
+}
+
 .badge {
 	font-size: 20px;
-}
-
-.btn {
-	color: white;
-	font-weight: 500 !important;
-}
-
-.btn:hover {
-	color: white;
-	border-color: white !important;
 }
 
 .progress {
