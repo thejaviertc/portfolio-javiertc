@@ -17,6 +17,7 @@ jobs:
 
       - name: 🔨 Build Project
         run: |
+          npm run preinstall
           npm install
           npm run build
 
