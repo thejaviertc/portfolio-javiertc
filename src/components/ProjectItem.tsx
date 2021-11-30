@@ -1,12 +1,24 @@
 // Basic
-import React, { Component } from "react";
+import { Component } from "react";
+
+// Props Interface
+interface ProjectItemProps {
+    position: string,
+    title: string,
+    desc: string,
+    badge: string,
+    type: string,
+    websitelink: string,
+    githublink: string,
+    image: string
+}
 
 // Components
 import Badge from "./Badge";
 import Button from "./Button";
 
 // ProjectItem Component
-class ProjectItem extends Component {
+class ProjectItem extends Component<ProjectItemProps> {
     render() {
         if (this.props.position === '1') {
             return (
