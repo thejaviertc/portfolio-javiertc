@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-javiertc/static/css/main.88a5cb42.chunk.css",
+    "main.css": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css",
     "main.js": "/portfolio-javiertc/static/js/main.b3e528ff.chunk.js",
     "main.js.map": "/portfolio-javiertc/static/js/main.b3e528ff.chunk.js.map",
     "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.ee4d24ea.js",
@@ -12,7 +12,7 @@
     "static/js/3.9262a5bb.chunk.js.map": "/portfolio-javiertc/static/js/3.9262a5bb.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
     "static/css/2.0e2f5814.chunk.css.map": "/portfolio-javiertc/static/css/2.0e2f5814.chunk.css.map",
-    "static/css/main.88a5cb42.chunk.css.map": "/portfolio-javiertc/static/css/main.88a5cb42.chunk.css.map",
+    "static/css/main.4aeed2d5.chunk.css.map": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css.map",
     "static/js/2.9471b134.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.9471b134.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
     "static/media/all.min.css": "/portfolio-javiertc/static/media/fa-solid-900.eeccf4f6.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.ee4d24ea.js",
     "static/css/2.0e2f5814.chunk.css",
     "static/js/2.9471b134.chunk.js",
-    "static/css/main.88a5cb42.chunk.css",
+    "static/css/main.4aeed2d5.chunk.css",
     "static/js/main.b3e528ff.chunk.js"
   ]
 }
