@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.3cf17d6e.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.3cf17d6e.chunk.js.map",
-    "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.2b4eac9e.js",
-    "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.2b4eac9e.js.map",
+    "main.js": "/portfolio-javiertc/static/js/main.be533d0c.chunk.js",
+    "main.js.map": "/portfolio-javiertc/static/js/main.be533d0c.chunk.js.map",
+    "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.b073b1df.js",
+    "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.b073b1df.js.map",
     "static/css/2.a07578a6.chunk.css": "/portfolio-javiertc/static/css/2.a07578a6.chunk.css",
-    "static/js/2.9471b134.chunk.js": "/portfolio-javiertc/static/js/2.9471b134.chunk.js",
-    "static/js/2.9471b134.chunk.js.map": "/portfolio-javiertc/static/js/2.9471b134.chunk.js.map",
-    "static/js/3.fe797c62.chunk.js": "/portfolio-javiertc/static/js/3.fe797c62.chunk.js",
-    "static/js/3.fe797c62.chunk.js.map": "/portfolio-javiertc/static/js/3.fe797c62.chunk.js.map",
+    "static/js/2.3e5382c5.chunk.js": "/portfolio-javiertc/static/js/2.3e5382c5.chunk.js",
+    "static/js/2.3e5382c5.chunk.js.map": "/portfolio-javiertc/static/js/2.3e5382c5.chunk.js.map",
+    "static/js/3.f65811d9.chunk.js": "/portfolio-javiertc/static/js/3.f65811d9.chunk.js",
+    "static/js/3.f65811d9.chunk.js.map": "/portfolio-javiertc/static/js/3.f65811d9.chunk.js.map",
     "index.html": "/portfolio-javiertc/index.html",
     "static/css/2.a07578a6.chunk.css.map": "/portfolio-javiertc/static/css/2.a07578a6.chunk.css.map",
     "static/css/main.4aeed2d5.chunk.css.map": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css.map",
-    "static/js/2.9471b134.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.9471b134.chunk.js.LICENSE.txt",
+    "static/js/2.3e5382c5.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.3e5382c5.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
     "static/media/all.css": "/portfolio-javiertc/static/media/fa-v4compatibility.afac8956.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b4eac9e.js",
+    "static/js/runtime-main.b073b1df.js",
     "static/css/2.a07578a6.chunk.css",
-    "static/js/2.9471b134.chunk.js",
+    "static/js/2.3e5382c5.chunk.js",
     "static/css/main.4aeed2d5.chunk.css",
-    "static/js/main.3cf17d6e.chunk.js"
+    "static/js/main.be533d0c.chunk.js"
   ]
 }
