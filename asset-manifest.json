@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css",
-    "main.js": "/portfolio-javiertc/static/js/main.d5d329fe.chunk.js",
-    "main.js.map": "/portfolio-javiertc/static/js/main.d5d329fe.chunk.js.map",
-    "runtime-main.js": "/portfolio-javiertc/static/js/runtime-main.c83b8e83.js",
-    "runtime-main.js.map": "/portfolio-javiertc/static/js/runtime-main.c83b8e83.js.map",
-    "static/css/2.73e53d7a.chunk.css": "/portfolio-javiertc/static/css/2.73e53d7a.chunk.css",
-    "static/js/2.e70893c7.chunk.js": "/portfolio-javiertc/static/js/2.e70893c7.chunk.js",
-    "static/js/2.e70893c7.chunk.js.map": "/portfolio-javiertc/static/js/2.e70893c7.chunk.js.map",
-    "static/js/3.3e4403bf.chunk.js": "/portfolio-javiertc/static/js/3.3e4403bf.chunk.js",
-    "static/js/3.3e4403bf.chunk.js.map": "/portfolio-javiertc/static/js/3.3e4403bf.chunk.js.map",
+    "main.css": "/portfolio-javiertc/static/css/main.78579109.css",
+    "main.js": "/portfolio-javiertc/static/js/main.0ecd2c2e.js",
+    "static/js/787.f8b68e31.chunk.js": "/portfolio-javiertc/static/js/787.f8b68e31.chunk.js",
+    "static/media/fa-solid-900.ttf": "/portfolio-javiertc/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio-javiertc/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio-javiertc/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio-javiertc/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio-javiertc/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/BasierCircle-Bold.ttf": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76763260c45740.ttf",
+    "static/media/fa-regular-400.woff2": "/portfolio-javiertc/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio-javiertc/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio-javiertc/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/portfolio-javiertc/index.html",
-    "static/css/2.73e53d7a.chunk.css.map": "/portfolio-javiertc/static/css/2.73e53d7a.chunk.css.map",
-    "static/css/main.4aeed2d5.chunk.css.map": "/portfolio-javiertc/static/css/main.4aeed2d5.chunk.css.map",
-    "static/js/2.e70893c7.chunk.js.LICENSE.txt": "/portfolio-javiertc/static/js/2.e70893c7.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/portfolio-javiertc/static/media/BasierCircle-Bold.f0835b76.ttf",
-    "static/media/all.css": "/portfolio-javiertc/static/media/fa-v4compatibility.afac8956.woff2"
+    "main.78579109.css.map": "/portfolio-javiertc/static/css/main.78579109.css.map",
+    "main.0ecd2c2e.js.map": "/portfolio-javiertc/static/js/main.0ecd2c2e.js.map",
+    "787.f8b68e31.chunk.js.map": "/portfolio-javiertc/static/js/787.f8b68e31.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c83b8e83.js",
-    "static/css/2.73e53d7a.chunk.css",
-    "static/js/2.e70893c7.chunk.js",
-    "static/css/main.4aeed2d5.chunk.css",
-    "static/js/main.d5d329fe.chunk.js"
+    "static/css/main.78579109.css",
+    "static/js/main.0ecd2c2e.js"
   ]
 }
