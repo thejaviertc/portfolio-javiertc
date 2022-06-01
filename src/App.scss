@@ -1,12 +1,13 @@
 // Fonts
 @font-face {
-	font-family: 'Basier Circle';
-	src: local('Basier Circle'), url(./fonts/basiercircle/BasierCircle-Bold.ttf) format('truetype');
+	font-family: "Basier Circle";
+	src: local("Basier Circle"),
+		url(./fonts/basiercircle/BasierCircle-Bold.ttf) format("truetype");
 }
 
 // Variables
-$primary: #00AEFF;
-$secondary: #0B95F1;
+$primary: #00aeff;
+$secondary: #0b95f1;
 $ternary: #00577f;
 
 // Global
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-	font-family: 'Basier Circle';
+	font-family: "Basier Circle";
 }
 
 // Custom
@@ -40,14 +41,14 @@ body {
 }
 
 .btn-secondary:hover {
-    color: white !important;
-    background-color: $ternary !important;
-    border-color: $ternary;
+	color: white !important;
+	background-color: $ternary !important;
+	border-color: $ternary;
 }
 
 .btn-secondary:focus {
-    border-color: $ternary !important;
-    box-shadow: none !important;
+	border-color: $ternary !important;
+	box-shadow: none !important;
 }
 
 .badge {
@@ -59,7 +60,10 @@ body {
 }
 
 // Miscelaneous
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	color: white;
 	font-weight: bold;
 }
