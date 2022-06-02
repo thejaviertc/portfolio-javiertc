@@ -15,8 +15,45 @@ import Project from "../components/Project";
 export default class App extends React.Component {
 	public render() {
 		return (
-			<div>
-				<section id="header" className="fullpage bg-primary">
+			<div
+				data-bs-spy="scroll"
+				data-bs-target=".navbar"
+				data-bs-offset="50"
+			>
+				<nav className="navbar navbar-expand-lg sticky-top bg-secondary navbar-dark">
+					<div className="container-fluid">
+						<a className="navbar-brand" href="#home">
+							{"Javiertc's Portfolio"}
+						</a>
+						<button
+							className="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarCollapse"
+							aria-controls="navbarCollapse"
+							aria-expanded="false"
+						>
+							<span className="navbar-toggler-icon"></span>
+						</button>
+						<div
+							className="collapse navbar-collapse"
+							id="navbarCollapse"
+						>
+							<div className="navbar-nav">
+								<a className="nav-link" href="#home">
+									Home
+								</a>
+								<a className="nav-link" href="#knowledge">
+									Knowledge
+								</a>
+								<a className="nav-link" href="#projects">
+									Projects
+								</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<section id="home" className="fullpage bg-primary">
 					<div className="container text-center">
 						<h1>
 							Javiertc <FontAwesomeIcon icon={faCode} />
@@ -41,13 +78,13 @@ export default class App extends React.Component {
 						</div>
 						<Button
 							icon={<FontAwesomeIcon icon={faAngleDown} />}
-							text="View More"
+							text={"Let's Go"}
 							link="#knowledge"
 						/>
 					</div>
 				</section>
-				<section id="knowledge" className="bg-secondary py-5">
-					<div className="container text-center">
+				<section id="knowledge" className="bg-primary py-5">
+					<div className="container text-center pt-5">
 						<h2>Knowledge</h2>
 						<div className="row justify-content-between">
 							<KnowledgeGroup
@@ -170,7 +207,7 @@ export default class App extends React.Component {
 					</div>
 				</section>
 				<section id="projects" className="bg-primary py-5">
-					<div className="container text-center">
+					<div className="container text-center pt-5">
 						<h2>Current Projects</h2>
 						<Project
 							title="Twitch Data"
