@@ -1,20 +1,26 @@
-// Basic
-import { Component } from "react";
+import React from "react";
 
-// Props Interface
 interface ButtonProps {
-    link: string,
-    icon: string,
-    text: string
+	icon: JSX.Element;
+	text: string;
+	link: string;
 }
 
-// Button Component
-class Button extends Component<ButtonProps> {
-    render() {
-        return (
-            <a className="btn btn-secondary mx-2" href={this.props.link} role="button"><i className={this.props.icon}></i> {this.props.text}</a>
-        );
-    }
+/**
+ * Bootstrap button component
+ */
+class Button extends React.Component<ButtonProps> {
+	render() {
+		return (
+			<a
+				className="btn btn-secondary mx-2"
+				href={this.props.link}
+				role="button"
+			>
+				{this.props.icon} {this.props.text}
+			</a>
+		);
+	}
 }
 
 export default Button;
