@@ -1,13 +1,14 @@
 import React from "react";
 
-// Props Interface
 interface ButtonProps {
-	link: string;
-	icon: string;
+	icon: JSX.Element;
 	text: string;
+	link: string;
 }
 
-// Button Component
+/**
+ * Bootstrap button component
+ */
 class Button extends React.Component<ButtonProps> {
 	render() {
 		return (
@@ -16,7 +17,7 @@ class Button extends React.Component<ButtonProps> {
 				href={this.props.link}
 				role="button"
 			>
-				<i className={this.props.icon}></i> {this.props.text}
+				{this.props.icon} {this.props.text}
 			</a>
 		);
 	}

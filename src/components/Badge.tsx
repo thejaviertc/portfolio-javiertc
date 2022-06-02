@@ -1,13 +1,16 @@
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-// Props Interface
 interface BadgeProps {
+	title: string;
 	type: string;
-	text: string;
 }
 
-// Badge Component
-class Badge extends React.Component<BadgeProps> {
+/**
+ * Bootstrap badge component
+ */
+export default class Badge extends React.Component<BadgeProps> {
 	render() {
 		return (
 			<span
@@ -15,10 +18,8 @@ class Badge extends React.Component<BadgeProps> {
 					"badge bg-" + this.props.type + " mx-1 my-1 text-white"
 				}
 			>
-				<i className="fa-solid fa-code"></i> {this.props.text}
+				<FontAwesomeIcon icon={faCode} /> {this.props.title}
 			</span>
 		);
 	}
 }
-
-export default Badge;
