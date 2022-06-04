@@ -18,7 +18,7 @@ jobs:
             - name: 📗 Use NodeJS
               uses: actions/setup-node@v3
               with:
-                  node-version: current
+                  node-version: "lts/gallium"
 
             - name: 🔨 Build Project
               run: |
