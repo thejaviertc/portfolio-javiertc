@@ -13,7 +13,7 @@ import KnowledgeItem from "../components/KnowledgeItem";
 import Project from "../components/Project";
 
 export default class App extends React.Component {
-	public render() {
+	render() {
 		return (
 			<div
 				data-bs-spy="scroll"

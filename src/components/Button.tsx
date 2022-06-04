@@ -9,7 +9,7 @@ interface ButtonProps {
 /**
  * Bootstrap button component
  */
-class Button extends React.Component<ButtonProps> {
+export default class Button extends React.Component<ButtonProps> {
 	render() {
 		return (
 			<a
@@ -22,5 +22,3 @@ class Button extends React.Component<ButtonProps> {
 		);
 	}
 }
-
-export default Button;
