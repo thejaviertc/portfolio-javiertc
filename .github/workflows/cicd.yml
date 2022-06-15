@@ -5,7 +5,7 @@ on:
         branches: [main]
 
 jobs:
-    testing:
+    cicd:
         runs-on: ubuntu-latest
         steps:
             - name: 🚚 Get latest code
