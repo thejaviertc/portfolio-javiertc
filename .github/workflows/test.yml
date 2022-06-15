@@ -7,7 +7,7 @@ on:
         branches: [v1.3.1]
 
 jobs:
-    "🚀 CI/CD":
+    "CI/CD":
         runs-on: ubuntu-latest
         steps:
             - name: 🚚 Get latest code
