@@ -1,0 +1,34 @@
+name: 💻 CI/CD
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    testing:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚚 Get latest code
+                uses: actions/checkout@v3
+
+            - name: 📗 Setup NodeJS
+                uses: actions/setup-node@v3
+                with:
+                    node-version: "lts/gallium"
+
+            - name: 🔨 Build Project
+                run: |
+                    npm install
+                    npm run build
+
+            - name: 🧪 Test Project
+                run: |
+                    npm run test
+
+            - name: 🚀 Deploy Project
+                uses: JamesIves/github-pages-deploy-action@v4.3.3
+                with:
+                    branch: gh-pages
+                    folder: build
