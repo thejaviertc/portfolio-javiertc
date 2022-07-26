@@ -4,7 +4,7 @@
 	"version": "1.3.3",
 	"homepage": "https://thejaviertc.github.io/portfolio-javiertc/",
 	"dependencies": {
-		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-brands-svg-icons": "^6.1.2",
 		"@fortawesome/free-solid-svg-icons": "^6.1.1",
 		"@fortawesome/react-fontawesome": "^0.2.0",
 		"bootstrap": "^5.2.0-beta1",
