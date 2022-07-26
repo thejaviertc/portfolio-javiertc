@@ -1,0 +1,28 @@
+name: 💻 CD
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    cicd:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚚 Get latest code
+              uses: actions/checkout@v3
+
+            - name: 📗 Setup NodeJS
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "lts/gallium"
+
+            - name: 🔨 Build Project
+              run: |
+                  npm install
+                  npm run build
+
+            - name: 🚀 Deploy Project
+              uses: JamesIves/github-pages-deploy-action@v4.4.0
+              with:
+                  branch: gh-pages
+                  folder: build
