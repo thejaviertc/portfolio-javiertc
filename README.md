@@ -1,5 +1,5 @@
 ![Main Image](https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/public/img/main.jpg)
-[![💻 CI/CD](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cicd.yml/badge.svg?branch=main)](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cicd.yml)
+[![💻 CD](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cd.yml)
 ![Version](https://img.shields.io/github/v/release/thejaviertc/portfolio-javiertc)
 ![Stars](https://img.shields.io/github/stars/thejaviertc/portfolio-javiertc)
 
