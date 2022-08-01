@@ -32,8 +32,8 @@
 		"vite": "^3.0.4"
 	},
 	"scripts": {
-		"dev": "export NODE_ENV=development && vite dev",
-		"devMobile": "export NODE_ENV=development && vite dev --host",
+		"dev": "vite dev",
+		"devMobile": "vite dev --host",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
