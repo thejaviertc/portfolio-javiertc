@@ -241,7 +241,7 @@
 	<h2 class="pb-10 md:pb-14 text-center">Current Projects</h2>
 	<div class="mx-10 md:mx-32">
 		<Project
-			image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/public/img/twitch-stats.jpg"
+			image="https://repository-images.githubusercontent.com/326809154/af64ef00-7abc-11eb-8d43-4d9f1d1d6509"
 			name="Twitch Data"
 			description="See the views and followers of your favourite Twitch
 			Streamers!"
@@ -257,7 +257,7 @@
 			github="https://github.com/thejaviertc/twitch-stats"
 		/>
 		<Project
-			image="https://raw.githubusercontent.com/thejaviertc/portfolio-javiertc/main/public/img/steam-workshop-stats.jpg"
+			image="https://repository-images.githubusercontent.com/289227137/bab81a80-7abc-11eb-8c63-37afc324cb8b"
 			name="Steam Workshop Stats"
 			description="See the views, subscriptions and favs of your Steam
 			Workshop addons!"
