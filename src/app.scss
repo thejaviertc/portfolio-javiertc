@@ -1,77 +1,39 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-// Variables
-$primary: #00aeff;
-$secondary: #0b95f1;
-$ternary: #00577f;
-
-// Global
 html {
 	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Basier Circle";
-	position: relative;
-}
-
-// Custom
-.fullpage {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-}
-
-// Bootstrap
-.bg-primary {
-	background-color: $primary !important;
-}
-
-.bg-secondary {
-	background-color: $secondary !important;
-}
-
-.btn-secondary {
-	background-color: $secondary !important;
-	border-color: $secondary !important;
-}
-
-.btn-secondary:hover {
-	color: white !important;
-	background-color: $ternary !important;
-	border-color: $ternary;
-}
-
-.btn-secondary:focus {
-	border-color: $ternary !important;
-	box-shadow: none !important;
-}
-
-.badge {
-	font-size: 20px;
-}
-
-.progress {
-	background-color: white !important;
-}
-
-// Miscelaneous
-h1,
-h2,
-h3,
-h4 {
-	color: white;
-	font-weight: bold;
 }
 
 h1 {
-	font-size: 85px;
+	@apply text-5xl md:text-8xl;
 }
 
 h2 {
-	font-size: 50px;
+	@apply text-3xl md:text-5xl;
 }
 
 h3 {
-	font-size: 40px;
+	@apply text-3xl;
+}
+
+h4 {
+	@apply text-2xl;
+}
+
+h5 {
+	@apply text-lg;
+}
+
+a {
+	@apply text-sm md:text-base;
+}
+
+svg {
+	display: inline;
 }
