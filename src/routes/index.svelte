@@ -44,6 +44,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Javiertc's Portfolio</title>
+</svelte:head>
+
 <button
 	class="bg-blue-400 hover:bg-blue-600 px-3 py-2 bottom-4 right-4 fixed text-white rounded-full"
 	on:click={toggleDarkMode}
