@@ -7,7 +7,7 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.1.2",
 		"@fortawesome/free-solid-svg-icons": "^6.1.2",
-		"bootstrap": "^5.2.0",
+		"bootstrap": "^5.2.1",
 		"svelte-fa": "^3.0.3"
 	},
 	"devDependencies": {
