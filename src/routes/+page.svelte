@@ -12,8 +12,8 @@
 	import {
 		faAngleDown,
 		faCode,
-		faSun,
 		faMoon,
+		faSun,
 	} from "@fortawesome/free-solid-svg-icons";
 	import { onMount } from "svelte";
 	import Fa from "svelte-fa";
@@ -195,13 +195,6 @@
 			time="+2 years"
 		/>
 		<Knowledge
-			title="Rust"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
-			usage={TUsage.RARELY}
-			level={TLevel.NOVICE}
-			time="Just Starting"
-		/>
-		<Knowledge
 			title="MySQL"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
 			usage={TUsage.SOMETIMES}
@@ -244,22 +237,6 @@
 >
 	<h2 class="pb-10 md:pb-14 text-center">Current Projects</h2>
 	<div class="mx-10 md:mx-32">
-		<Project
-			image="https://repository-images.githubusercontent.com/326809154/af64ef00-7abc-11eb-8d43-4d9f1d1d6509"
-			name="Twitch Data"
-			description="See the views and followers of your favourite Twitch
-			Streamers!"
-			badges={[
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-				"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-			]}
-			live="https://thejaviertc.github.io/twitch-stats/"
-			github="https://github.com/thejaviertc/twitch-stats"
-		/>
 		<Project
 			image="https://repository-images.githubusercontent.com/289227137/bab81a80-7abc-11eb-8c63-37afc324cb8b"
 			name="Steam Workshop Stats"
