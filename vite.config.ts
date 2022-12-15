@@ -1,8 +1,9 @@
 import { sveltekit } from "@sveltejs/kit/vite";
-import type { UserConfig } from "vite";
+/** @type {import('vite').UserConfig} */
 
-const config: UserConfig = {
+const config = {
 	plugins: [sveltekit()],
+	// TODO: Check if this is needed now that Sveltekit is stable
 	ssr: {
 		noExternal: [
 			"@fortawesome/free-solid-svg-icons",

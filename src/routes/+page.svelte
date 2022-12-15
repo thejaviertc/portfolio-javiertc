@@ -110,6 +110,7 @@
 	<div
 		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mx-10 md:mx-32"
 	>
+		<!-- TODO: #417 Use a Date instead of static text  -->
 		<Knowledge
 			title="HTML"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
