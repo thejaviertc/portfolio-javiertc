@@ -3,7 +3,23 @@
 	export let image: string;
 	export let usage: string;
 	export let level: string;
-	export let time: string;
+	export let date: Date;
+
+	function obtainAmountTime(date: Date): string {
+		const actualDate = new Date(Date.now());
+
+		// Get the amout of years since the date
+		const years = actualDate.getFullYear() - date.getFullYear();
+
+		if (years > 0) return `+${years} year/s`;
+
+		// Get the amout of months since the date
+		const months = actualDate.getMonth() - date.getMonth();
+
+		if (months > 1) return `${months} months`;
+
+		return "Just Starting";
+	}
 </script>
 
 <div
@@ -15,6 +31,6 @@
 	>
 		<h4 class="pb-3">{title}</h4>
 		<h5 class="py-3">{usage}</h5>
-		<h5 class="py-3">{level} ({time})</h5>
+		<h5 class="py-3">{level} ({obtainAmountTime(date)})</h5>
 	</div>
 </div>

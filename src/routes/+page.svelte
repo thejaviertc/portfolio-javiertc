@@ -2,8 +2,8 @@
 	import Button from "$lib/Button.svelte";
 	import Knowledge from "$lib/Knowledge.svelte";
 	import Project from "$lib/Project.svelte";
-	import TLevel from "$lib/TLevel";
-	import TUsage from "$lib/TUsage";
+	import TLevel from "$lib/enums/TLevel";
+	import TUsage from "$lib/enums/TUsage";
 	import {
 		faGithub,
 		faSteam,
@@ -110,125 +110,145 @@
 	<div
 		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mx-10 md:mx-32"
 	>
-		<!-- TODO: #417 Use Date instead of static text  -->
+		<!-- Website Frontend -->
 		<Knowledge
 			title="HTML"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 			usage={TUsage.ALWAYS}
 			level={TLevel.PROFICIENT}
-			time="+4 years"
+			date={new Date("2018")}
 		/>
 		<Knowledge
 			title="CSS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 			usage={TUsage.OFTEN}
 			level={TLevel.ADVANCED}
-			time="+4 years"
+			date={new Date("2018")}
 		/>
 		<Knowledge
 			title="Sass"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
 			usage={TUsage.OFTEN}
 			level={TLevel.NOVICE}
-			time="5 months"
+			date={new Date("August 1, 2022")}
 		/>
+		<!-- CSS Frameworks -->
 		<Knowledge
 			title="Bootstrap"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-			usage="{TUsage.RARELY} (Learning Tailwind)"
-			level={TLevel.PROFICIENT}
-			time="5 months"
+			usage="{TUsage.RARELY} (Now using Tailwind)"
+			level={TLevel.COMPETENT}
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Tailwind CSS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-			usage={TUsage.RARELY}
+			usage={TUsage.USUALLY}
 			level={TLevel.NOVICE}
-			time="Just Starting"
+			date={new Date("August 1, 2022")}
 		/>
+		<!-- Javascript Frameworks -->
+		<Knowledge
+			title="React"
+			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+			usage="{TUsage.RARELY} (Now using Svelte)"
+			level={TLevel.ADVANCED}
+			date={new Date("2021")}
+		/>
+		<Knowledge
+			title="Svelte"
+			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+			usage={TUsage.USUALLY}
+			level={TLevel.ADVANCED}
+			date={new Date("August 1, 2022")}
+		/>
+		<Knowledge
+			title="SvelteKit"
+			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+			usage={TUsage.USUALLY}
+			level={TLevel.NOVICE}
+			date={new Date("September 1, 2022")}
+		/>
+		<!-- Website Backend -->
 		<Knowledge
 			title="Javascript"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 			usage={TUsage.USUALLY}
 			level={TLevel.COMPETENT}
-			time="+3 years"
+			date={new Date("2019")}
 		/>
 		<Knowledge
 			title="Typescript"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
 			usage={TUsage.ALWAYS}
 			level={TLevel.COMPETENT}
-			time="Almost 1 year"
-		/>
-		<Knowledge
-			title="React"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-			usage="{TUsage.RARELY} (Now using Svelte)"
-			level={TLevel.ADVANCED}
-			time="Almost 1 year"
-		/>
-		<Knowledge
-			title="Svelte"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.NOVICE}
-			time="Just Starting"
+			date={new Date("2021")}
 		/>
 		<Knowledge
 			title="NodeJS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 			usage={TUsage.USUALLY}
 			level={TLevel.COMPETENT}
-			time="+1 years"
+			date={new Date("2019")}
 		/>
-		<Knowledge
-			title="NPM"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.COMPETENT}
-			time="+1 years"
-		/>
+		<!-- Languages -->
 		<Knowledge
 			title="Java"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
 			usage={TUsage.RARELY}
 			level={TLevel.COMPETENT}
-			time="+2 years"
+			date={new Date("2020")}
 		/>
+		<Knowledge
+			title="C#"
+			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+			usage={TUsage.SOMETIMES}
+			level={TLevel.NOVICE}
+			date={new Date("December 4, 2022")}
+		/>
+		<!-- Databases -->
 		<Knowledge
 			title="MySQL"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
 			usage={TUsage.SOMETIMES}
 			level={TLevel.COMPETENT}
-			time="+1 year"
+			date={new Date("2020")}
 		/>
+		<!-- Tools -->
 		<Knowledge
 			title="VSCode"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
 			usage={TUsage.ALWAYS}
 			level={TLevel.COMPETENT}
-			time="+3 years"
+			date={new Date("2019")}
 		/>
 		<Knowledge
 			title="Git"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 			usage={TUsage.ALWAYS}
 			level={TLevel.ADVANCED}
-			time="+2 years"
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Github"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
 			usage={TUsage.ALWAYS}
 			level={TLevel.COMPETENT}
-			time="+2 years"
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Linux"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
 			usage={TUsage.USUALLY}
 			level={TLevel.ADVANCED}
-			time="+1 year"
+			date={new Date("2021")}
+		/>
+		<Knowledge
+			title="NPM"
+			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+			usage={TUsage.USUALLY}
+			level={TLevel.COMPETENT}
+			date={new Date("2019")}
 		/>
 	</div>
 </section>
