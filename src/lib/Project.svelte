@@ -20,7 +20,9 @@
 		<div class="text-center mt-6">
 			<h3>{name}</h3>
 			<h4 class="my-3">{description}</h4>
-			<div class="grid lg:flex lg:justify-center grid-cols-2 sm:grid-cols-3">
+			<div
+				class="grid lg:flex lg:justify-center grid-cols-2 sm:grid-cols-3"
+			>
 				{#each badges as badge}
 					<Badge logo={badge} />
 				{/each}
