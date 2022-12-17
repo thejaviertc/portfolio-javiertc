@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Button from "$lib/Button.svelte";
-	import Knowledge from "$lib/Knowledge.svelte";
-	import Project from "$lib/Project.svelte";
 	import TLevel from "$lib/enums/TLevel";
 	import TUsage from "$lib/enums/TUsage";
+	import Knowledge from "$lib/Knowledge.svelte";
+	import Project from "$lib/Project.svelte";
 	import {
 		faGithub,
 		faSteam,
