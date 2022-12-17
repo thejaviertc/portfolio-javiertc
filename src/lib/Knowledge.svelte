@@ -5,6 +5,10 @@
 	export let level: string;
 	export let date: Date;
 
+	/**
+	 * Converts a Date object into a string with friendly format
+	 * @param date Date
+	 */
 	function obtainAmountTime(date: Date): string {
 		const actualDate = new Date(Date.now());
 
