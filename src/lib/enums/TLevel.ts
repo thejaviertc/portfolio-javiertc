@@ -1,9 +1,8 @@
 enum TLevel {
-	EXPERT = "Expert",
-	PROFICIENT = "Proficient",
+	ADVANCED = "Advanced",
 	COMPETENT = "Competent",
-	ADVANCED = "Advanced-Beginner",
-	NOVICE = "Novice",
+	BASIC = "Basic",
+	MINIMAL = "Minimal",
 }
 
 export default TLevel;

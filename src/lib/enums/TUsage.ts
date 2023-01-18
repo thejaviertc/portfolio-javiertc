@@ -1,9 +1,8 @@
 enum TUsage {
 	ALWAYS = "Always",
-	USUALLY = "Usually",
-	OFTEN = "Often",
 	SOMETIMES = "Sometimes",
 	RARELY = "Rarely",
+	NEVER = "Never",
 }
 
 export default TUsage;
