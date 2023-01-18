@@ -1,4 +1,4 @@
-import Project from "$lib/Project.svelte";
+import Project from "../lib/Project.svelte";
 import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";
 

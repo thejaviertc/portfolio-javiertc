@@ -1,6 +1,6 @@
-import TLevel from "$lib/enums/TLevel";
-import TUsage from "$lib/enums/TUsage";
-import Knowledge from "$lib/Knowledge.svelte";
+import TLevel from "../lib/enums/TLevel";
+import TUsage from "../lib/enums/TUsage";
+import Knowledge from "../lib/Knowledge.svelte";
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
 
