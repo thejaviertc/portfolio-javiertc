@@ -115,67 +115,67 @@
 			title="HTML"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 			usage={TUsage.ALWAYS}
-			level={TLevel.PROFICIENT}
-			date={new Date("2018")}
+			level={TLevel.ADVANCED}
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="CSS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-			usage={TUsage.OFTEN}
-			level={TLevel.ADVANCED}
-			date={new Date("2018")}
+			usage={TUsage.SOMETIMES}
+			level={TLevel.COMPETENT}
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Sass"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-			usage={TUsage.OFTEN}
-			level={TLevel.NOVICE}
+			usage={TUsage.SOMETIMES}
+			level={TLevel.MINIMAL}
 			date={new Date("August 1, 2022")}
 		/>
 		<!-- CSS Frameworks -->
 		<Knowledge
 			title="Bootstrap"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-			usage="{TUsage.RARELY} (Now using Tailwind)"
+			usage="{TUsage.NEVER} (Now using Tailwind)"
 			level={TLevel.COMPETENT}
 			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Tailwind CSS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.NOVICE}
+			usage={TUsage.ALWAYS}
+			level={TLevel.BASIC}
 			date={new Date("August 1, 2022")}
 		/>
 		<!-- Javascript Frameworks -->
 		<Knowledge
 			title="React"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-			usage="{TUsage.RARELY} (Now using Svelte)"
-			level={TLevel.ADVANCED}
+			usage="{TUsage.NEVER} (Now using Svelte)"
+			level={TLevel.MINIMAL}
 			date={new Date("2021")}
 		/>
 		<Knowledge
 			title="Svelte"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.ADVANCED}
+			usage={TUsage.ALWAYS}
+			level={TLevel.COMPETENT}
 			date={new Date("August 1, 2022")}
 		/>
 		<Knowledge
 			title="SvelteKit"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.NOVICE}
+			usage={TUsage.ALWAYS}
+			level={TLevel.BASIC}
 			date={new Date("September 1, 2022")}
 		/>
 		<!-- Website Backend -->
 		<Knowledge
 			title="Javascript"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-			usage={TUsage.USUALLY}
+			usage={TUsage.SOMETIMES}
 			level={TLevel.COMPETENT}
-			date={new Date("2019")}
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Typescript"
@@ -187,15 +187,15 @@
 		<Knowledge
 			title="NodeJS"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-			usage={TUsage.USUALLY}
+			usage={TUsage.ALWAYS}
 			level={TLevel.COMPETENT}
-			date={new Date("2019")}
+			date={new Date("2020")}
 		/>
 		<!-- Languages -->
 		<Knowledge
 			title="Java"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-			usage={TUsage.RARELY}
+			usage="{TUsage.RARELY} (University Projects)"
 			level={TLevel.COMPETENT}
 			date={new Date("2020")}
 		/>
@@ -203,7 +203,7 @@
 			title="C#"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
 			usage={TUsage.SOMETIMES}
-			level={TLevel.NOVICE}
+			level={TLevel.BASIC}
 			date={new Date("December 4, 2022")}
 		/>
 		<!-- Databases -->
@@ -212,21 +212,21 @@
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
 			usage={TUsage.SOMETIMES}
 			level={TLevel.COMPETENT}
-			date={new Date("2020")}
+			date={new Date("2021")}
 		/>
 		<!-- Tools -->
 		<Knowledge
 			title="VSCode"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
 			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2019")}
+			level={TLevel.ADVANCED}
+			date={new Date("2020")}
 		/>
 		<Knowledge
 			title="Git"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 			usage={TUsage.ALWAYS}
-			level={TLevel.ADVANCED}
+			level={TLevel.COMPETENT}
 			date={new Date("2020")}
 		/>
 		<Knowledge
@@ -239,16 +239,16 @@
 		<Knowledge
 			title="Linux"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-			usage={TUsage.USUALLY}
-			level={TLevel.ADVANCED}
+			usage={TUsage.ALWAYS}
+			level={TLevel.COMPETENT}
 			date={new Date("2021")}
 		/>
 		<Knowledge
 			title="NPM"
 			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-			usage={TUsage.USUALLY}
+			usage={TUsage.SOMETIMES}
 			level={TLevel.COMPETENT}
-			date={new Date("2019")}
+			date={new Date("2020")}
 		/>
 	</div>
 </section>
