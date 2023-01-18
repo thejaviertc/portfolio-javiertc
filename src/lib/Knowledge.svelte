@@ -13,16 +13,29 @@
 		const actualDate = new Date(Date.now());
 
 		// Get the amout of years since the date
-		const years = actualDate.getFullYear() - date.getFullYear();
+		const years = new Date(+new Date() - +date).getFullYear() - 1970;
 
 		if (years > 0) return `+${years} year/s`;
 
 		// Get the amout of months since the date
-		const months = actualDate.getMonth() - date.getMonth();
+		const months = calculateNumberMonths(date, actualDate);
 
 		if (months > 1) return `${months} months`;
 
 		return "Just Starting";
+	}
+
+	/**
+	 * Returns the number of months between the dates
+	 * @param start
+	 * @param end
+	 */
+	function calculateNumberMonths(start: Date, end: Date) {
+		let months;
+		months = (end.getFullYear() - start.getFullYear()) * 12;
+		months -= start.getMonth();
+		months += end.getMonth();
+		return months <= 0 ? 0 : months;
 	}
 </script>
 
