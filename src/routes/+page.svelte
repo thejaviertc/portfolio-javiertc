@@ -12,55 +12,24 @@
 	import {
 		faAngleDown,
 		faCode,
-		faMoon,
-		faSun,
+		faLongArrowAltUp,
 	} from "@fortawesome/free-solid-svg-icons";
-	import { onMount } from "svelte";
 	import Fa from "svelte-fa";
-
-	let html: any;
-	let isDark: boolean;
-
-	onMount(() => {
-		html = document.querySelector("html");
-		isDark = isDarkMode();
-	});
-
-	function isDarkMode(): boolean {
-		if (html) return html.classList.contains("dark");
-		else return false;
-	}
-
-	function toggleDarkMode() {
-		if (html) {
-			if (isDarkMode()) {
-				html.classList.remove("dark");
-				isDark = false;
-			} else {
-				html.classList.add("dark");
-				isDark = true;
-			}
-		}
-	}
 </script>
 
 <svelte:head>
 	<title>Javiertc's Portfolio</title>
 </svelte:head>
 
-<button
+<a
 	class="bg-blue-400 hover:bg-blue-600 px-3 py-2 bottom-4 right-4 fixed text-white rounded-full"
-	on:click={toggleDarkMode}
+	href="#home"
 >
-	{#if isDark}
-		<Fa icon={faMoon} />
-	{:else}
-		<Fa icon={faSun} />
-	{/if}
-</button>
+	<Fa icon={faLongArrowAltUp} />
+</a>
 <section
 	id="home"
-	class="bg-white dark:bg-zinc-900 min-h-screen flex justify-center items-center"
+	class="bg-zinc-900 min-h-screen flex justify-center items-center"
 >
 	<div>
 		<img
@@ -102,10 +71,7 @@
 		</div>
 	</div>
 </section>
-<section
-	id="knowledge"
-	class="bg-rose-50 dark:bg-black dark:text-gray-100 py-10 md:py-14"
->
+<section id="knowledge" class="bg-black text-gray-100 py-10 md:py-14">
 	<h2 class="pb-10 md:pb-14 text-center">Knowledge</h2>
 	<div
 		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mx-10 md:mx-32"
@@ -252,10 +218,7 @@
 		/>
 	</div>
 </section>
-<section
-	id="projects"
-	class="dark:bg-zinc-900 dark:text-gray-100 py-10 md:py-14"
->
+<section id="projects" class="bg-zinc-900 text-gray-100 py-10 md:py-14">
 	<h2 class="pb-10 md:pb-14 text-center">Current Projects</h2>
 	<div class="mx-10 md:mx-32">
 		<Project
