@@ -39,13 +39,9 @@
 	}
 </script>
 
-<div
-	class="bg-white dark:bg-zinc-900 p-6 rounded-xl shadow-lg dark:border-4 dark:border-zinc-800"
->
+<div class="bg-zinc-900 p-6 rounded-xl shadow-lg border-4 border-zinc-800">
 	<img src={image} alt="logo" class="mx-auto w-24 h-20" />
-	<div
-		class="pt-4 text-center divide-y-4 divide-rose-50 dark:divide-zinc-800"
-	>
+	<div class="pt-4 text-center divide-y-4 divide-zinc-800">
 		<h4 class="pb-3">{title}</h4>
 		<h5 class="py-3">{usage}</h5>
 		<h5 class="py-3">{level} ({obtainAmountTime(date)})</h5>
