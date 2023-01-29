@@ -2,65 +2,39 @@
 	import Button from "$lib/Button.svelte";
 	import TLevel from "$lib/enums/TLevel";
 	import TUsage from "$lib/enums/TUsage";
-	import Knowledge from "$lib/Knowledge.svelte";
+	import KnowledgeGroup from "$lib/KnowledgeGroup.svelte";
 	import Project from "$lib/Project.svelte";
 	import {
 		faGithub,
 		faSteam,
-		faTwitter,
+		faTwitter
 	} from "@fortawesome/free-brands-svg-icons";
 	import {
 		faAngleDown,
 		faCode,
-		faMoon,
-		faSun,
+		faComputer,
+		faDatabase,
+		faLongArrowAltUp,
+		faServer,
+		faTools,
+		faWindowMaximize
 	} from "@fortawesome/free-solid-svg-icons";
-	import { onMount } from "svelte";
 	import Fa from "svelte-fa";
-
-	let html: any;
-	let isDark: boolean;
-
-	onMount(() => {
-		html = document.querySelector("html");
-		isDark = isDarkMode();
-	});
-
-	function isDarkMode(): boolean {
-		if (html) return html.classList.contains("dark");
-		else return false;
-	}
-
-	function toggleDarkMode() {
-		if (html) {
-			if (isDarkMode()) {
-				html.classList.remove("dark");
-				isDark = false;
-			} else {
-				html.classList.add("dark");
-				isDark = true;
-			}
-		}
-	}
 </script>
 
 <svelte:head>
 	<title>Javiertc's Portfolio</title>
 </svelte:head>
 
-<button
+<a
 	class="bg-blue-400 hover:bg-blue-600 px-3 py-2 bottom-4 right-4 fixed text-white rounded-full"
-	on:click={toggleDarkMode}
+	href="#home"
 >
-	{#if isDark}
-		<Fa icon={faMoon} />
-	{:else}
-		<Fa icon={faSun} />
-	{/if}
-</button>
+	<Fa icon={faLongArrowAltUp} />
+</a>
 <section
 	id="home"
-	class="bg-white dark:bg-zinc-900 min-h-screen flex justify-center items-center"
+	class="bg-zinc-900 min-h-screen flex justify-center items-center"
 >
 	<div>
 		<img
@@ -102,160 +76,178 @@
 		</div>
 	</div>
 </section>
-<section
-	id="knowledge"
-	class="bg-rose-50 dark:bg-black dark:text-gray-100 py-10 md:py-14"
->
+<section id="knowledge" class="bg-black text-gray-100 py-10 md:py-14">
 	<h2 class="pb-10 md:pb-14 text-center">Knowledge</h2>
-	<div
-		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mx-10 md:mx-32"
-	>
-		<!-- Website Frontend -->
-		<Knowledge
-			title="HTML"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.ADVANCED}
-			date={new Date("2020")}
+	<div class="flex flex-wrap justify-center gap-6 mx-4 sm:mx-10">
+		<KnowledgeGroup
+			title="Website Frontend"
+			faIcon={faWindowMaximize}
+			knowledgeItems={[
+				{
+					color: "bg-orange-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+					text: "HTML",
+					usage: TUsage.ALWAYS,
+					level: TLevel.ADVANCED,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-sky-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+					text: "CSS",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-pink-400",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+					text: "Sass",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.MINIMAL,
+					date: new Date("August 1, 2022"),
+				},
+				{
+					color: "bg-teal-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+					text: "Tailwind CSS",
+					usage: TUsage.ALWAYS,
+					level: TLevel.BASIC,
+					date: new Date("August 1, 2022"),
+				},
+				{
+					color: "bg-orange-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+					text: "Svelte",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("August 1, 2022"),
+				},
+				{
+					color: "bg-orange-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+					text: "SvelteKit",
+					usage: TUsage.ALWAYS,
+					level: TLevel.BASIC,
+					date: new Date("September 1, 2022"),
+				},
+			]}
 		/>
-		<Knowledge
-			title="CSS"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
+		<KnowledgeGroup
+			title="Website Backend"
+			faIcon={faServer}
+			knowledgeItems={[
+				{
+					color: "bg-yellow-400",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+					text: "Javascript",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-blue-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+					text: "Typescript",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("2021"),
+				},
+				{
+					color: "bg-green-600",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+					text: "NodeJS",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+			]}
 		/>
-		<Knowledge
-			title="Sass"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.MINIMAL}
-			date={new Date("August 1, 2022")}
+		<KnowledgeGroup
+			title="Desktop"
+			faIcon={faComputer}
+			knowledgeItems={[
+				{
+					color: "bg-orange-400",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
+					text: "Java",
+					usage: TUsage.RARELY,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-fuchsia-900",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+					text: "C#",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.BASIC,
+					date: new Date("December 4, 2022"),
+				},
+			]}
 		/>
-		<!-- CSS Frameworks -->
-		<Knowledge
-			title="Bootstrap"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-			usage="{TUsage.NEVER} (Now using Tailwind)"
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
+		<KnowledgeGroup
+			title="Databases"
+			faIcon={faDatabase}
+			knowledgeItems={[
+				{
+					color: "bg-blue-400",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+					text: "MySQL",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.COMPETENT,
+					date: new Date("2021"),
+				},
+			]}
 		/>
-		<Knowledge
-			title="Tailwind CSS"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.BASIC}
-			date={new Date("August 1, 2022")}
-		/>
-		<!-- Javascript Frameworks -->
-		<Knowledge
-			title="React"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-			usage="{TUsage.NEVER} (Now using Svelte)"
-			level={TLevel.MINIMAL}
-			date={new Date("2021")}
-		/>
-		<Knowledge
-			title="Svelte"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("August 1, 2022")}
-		/>
-		<Knowledge
-			title="SvelteKit"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.BASIC}
-			date={new Date("September 1, 2022")}
-		/>
-		<!-- Website Backend -->
-		<Knowledge
-			title="Javascript"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
-		/>
-		<Knowledge
-			title="Typescript"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2021")}
-		/>
-		<Knowledge
-			title="NodeJS"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
-		/>
-		<!-- Languages -->
-		<Knowledge
-			title="Java"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-			usage="{TUsage.RARELY} (University Projects)"
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
-		/>
-		<Knowledge
-			title="C#"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.BASIC}
-			date={new Date("December 4, 2022")}
-		/>
-		<!-- Databases -->
-		<Knowledge
-			title="MySQL"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.COMPETENT}
-			date={new Date("2021")}
-		/>
-		<!-- Tools -->
-		<Knowledge
-			title="VSCode"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.ADVANCED}
-			date={new Date("2020")}
-		/>
-		<Knowledge
-			title="Git"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
-		/>
-		<Knowledge
-			title="Github"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
-		/>
-		<Knowledge
-			title="Linux"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-			usage={TUsage.ALWAYS}
-			level={TLevel.COMPETENT}
-			date={new Date("2021")}
-		/>
-		<Knowledge
-			title="NPM"
-			image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-			usage={TUsage.SOMETIMES}
-			level={TLevel.COMPETENT}
-			date={new Date("2020")}
+		<KnowledgeGroup
+			title="Tools"
+			faIcon={faTools}
+			knowledgeItems={[
+				{
+					color: "bg-sky-700",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+					text: "VSCode",
+					usage: TUsage.ALWAYS,
+					level: TLevel.ADVANCED,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-amber-500",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+					text: "Git",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-gray-700",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+					text: "Github",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+				{
+					color: "bg-slate-900",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+					text: "Linux",
+					usage: TUsage.ALWAYS,
+					level: TLevel.COMPETENT,
+					date: new Date("2021"),
+				},
+				{
+					color: "bg-red-400",
+					logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+					text: "NPM",
+					usage: TUsage.SOMETIMES,
+					level: TLevel.COMPETENT,
+					date: new Date("2020"),
+				},
+			]}
 		/>
 	</div>
 </section>
-<section
-	id="projects"
-	class="dark:bg-zinc-900 dark:text-gray-100 py-10 md:py-14"
->
+<section id="projects" class="bg-zinc-900 text-gray-100 py-10 md:py-14">
 	<h2 class="pb-10 md:pb-14 text-center">Current Projects</h2>
 	<div class="mx-10 md:mx-32">
 		<Project

@@ -1,4 +1,4 @@
-import Button from "../lib/Button.svelte";
+import Button from "$lib/Button.svelte";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";

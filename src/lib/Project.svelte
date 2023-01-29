@@ -12,9 +12,7 @@
 	export let github: string;
 </script>
 
-<div
-	class="bg-rose-50 dark:bg-black grid grid-cols-1 lg:grid-cols-2 p-6 mb-10 rounded-xl"
->
+<div class="bg-black grid grid-cols-1 lg:grid-cols-2 p-6 mb-10 rounded-xl">
 	<img src={image} alt="Project" />
 	<div class="flex justify-center items-center ml-2">
 		<div class="text-center mt-6">
