@@ -1,4 +1,4 @@
-import Badge from "$lib/KnowledgeItem.svelte";
+import Badge from "$lib/Badge.svelte";
 import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";
 

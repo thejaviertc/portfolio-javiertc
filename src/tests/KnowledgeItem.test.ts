@@ -1,6 +1,6 @@
 import TLevel from "$lib/enums/TLevel";
 import TUsage from "$lib/enums/TUsage";
-import Knowledge from "$lib/KnowledgeGroup.svelte";
+import KnowledgeItem from "$lib/KnowledgeItem.svelte";
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
 
@@ -10,7 +10,14 @@ describe("Knowledge Component", () => {
 		const testingDate = new Date(Date.now());
 		testingDate.setMonth(testingDate.getMonth() - 1);
 
-		render(Knowledge, { title: "HTML", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", usage: TUsage.ALWAYS, level: TLevel.ADVANCED, date: testingDate });
+		render(KnowledgeItem, {
+			color: "bg-orange-600",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+			text: "HTML",
+			usage: TUsage.ALWAYS,
+			level: TLevel.ADVANCED,
+			date: testingDate
+		});
 
 		expect(screen.getByText(/Just Starting/i)).toBeTruthy();
 	});
@@ -19,7 +26,14 @@ describe("Knowledge Component", () => {
 		const testingDate = new Date(Date.now());
 		testingDate.setMonth(testingDate.getMonth() - 11);
 
-		render(Knowledge, { title: "HTML", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", usage: TUsage.ALWAYS, level: TLevel.ADVANCED, date: testingDate });
+		render(KnowledgeItem, {
+			color: "bg-orange-600",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+			text: "HTML",
+			usage: TUsage.ALWAYS,
+			level: TLevel.ADVANCED,
+			date: testingDate
+		});
 
 		expect(screen.getByText(/months/i)).toBeTruthy();
 	});
@@ -28,7 +42,14 @@ describe("Knowledge Component", () => {
 		const testingDate = new Date(Date.now());
 		testingDate.setFullYear(testingDate.getFullYear() - 2);
 
-		render(Knowledge, { title: "HTML", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", usage: TUsage.ALWAYS, level: TLevel.ADVANCED, date: testingDate });
+		render(KnowledgeItem, {
+			color: "bg-orange-600",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+			text: "HTML",
+			usage: TUsage.ALWAYS,
+			level: TLevel.ADVANCED,
+			date: testingDate
+		});
 
 		expect(screen.getByText(/year/i)).toBeTruthy();
 	});
