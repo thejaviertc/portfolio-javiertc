@@ -41,8 +41,8 @@
 </script>
 
 <span class="{color} px-4 py-2 mx-2 my-2 rounded-md flex items-center">
-	<img src={logo} class="h-14" alt="Logo" />
-	<div class="mx-4">
+	<img src={logo} class="h-10 sm:h-14" alt="Logo" />
+	<div class="mx-1 sm:mx-4">
 		<h5>{text}</h5>
 	</div>
 	<div class="text-right">

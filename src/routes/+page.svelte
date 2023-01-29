@@ -78,7 +78,7 @@
 </section>
 <section id="knowledge" class="bg-black text-gray-100 py-10 md:py-14">
 	<h2 class="pb-10 md:pb-14 text-center">Knowledge</h2>
-	<div class="flex flex-wrap justify-center gap-6 mx-10">
+	<div class="flex flex-wrap justify-center gap-6 mx-4 sm:mx-10">
 		<KnowledgeGroup
 			title="Website Frontend"
 			faIcon={faWindowMaximize}
