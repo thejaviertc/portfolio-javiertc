@@ -5,7 +5,6 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";
 
-
 describe("Button Component", () => {
 	it("Renders", () => {
 		render(KnowledgeGroup, {
@@ -19,8 +18,8 @@ describe("Button Component", () => {
 					usage: TUsage.SOMETIMES,
 					level: TLevel.COMPETENT,
 					date: new Date("2021"),
-				}
-			]
+				},
+			],
 		});
 	});
 });

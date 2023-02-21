@@ -4,7 +4,6 @@ import KnowledgeItem from "$lib/KnowledgeItem.svelte";
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
 
-
 describe("Knowledge Component", () => {
 	it("Renders 'Just Starting' when 2 months have not yet passed", () => {
 		const testingDate = new Date(Date.now());
@@ -16,7 +15,7 @@ describe("Knowledge Component", () => {
 			text: "HTML",
 			usage: TUsage.ALWAYS,
 			level: TLevel.ADVANCED,
-			date: testingDate
+			date: testingDate,
 		});
 
 		expect(screen.getByText(/Just Starting/i)).toBeTruthy();
@@ -32,7 +31,7 @@ describe("Knowledge Component", () => {
 			text: "HTML",
 			usage: TUsage.ALWAYS,
 			level: TLevel.ADVANCED,
-			date: testingDate
+			date: testingDate,
 		});
 
 		expect(screen.getByText(/months/i)).toBeTruthy();
@@ -48,7 +47,7 @@ describe("Knowledge Component", () => {
 			text: "HTML",
 			usage: TUsage.ALWAYS,
 			level: TLevel.ADVANCED,
-			date: testingDate
+			date: testingDate,
 		});
 
 		expect(screen.getByText(/year/i)).toBeTruthy();

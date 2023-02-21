@@ -4,11 +4,7 @@
 	import TUsage from "$lib/enums/TUsage";
 	import KnowledgeGroup from "$lib/KnowledgeGroup.svelte";
 	import Project from "$lib/Project.svelte";
-	import {
-		faGithub,
-		faSteam,
-		faTwitter
-	} from "@fortawesome/free-brands-svg-icons";
+	import { faGithub, faSteam, faTwitter } from "@fortawesome/free-brands-svg-icons";
 	import {
 		faAngleDown,
 		faCode,
@@ -17,7 +13,7 @@
 		faLongArrowAltUp,
 		faServer,
 		faTools,
-		faWindowMaximize
+		faWindowMaximize,
 	} from "@fortawesome/free-solid-svg-icons";
 	import Fa from "svelte-fa";
 </script>
@@ -32,10 +28,7 @@
 >
 	<Fa icon={faLongArrowAltUp} />
 </a>
-<section
-	id="home"
-	class="bg-zinc-900 min-h-screen flex justify-center items-center"
->
+<section id="home" class="bg-zinc-900 min-h-screen flex justify-center items-center">
 	<div>
 		<img
 			class="mx-auto h-36 rounded-full"
@@ -43,9 +36,7 @@
 			alt="Profile"
 		/>
 		<div class="my-6 text-center">
-			<h1
-				class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"
-			>
+			<h1 class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
 				Javiertc <Fa icon={faCode} class="text-blue-500" />
 			</h1>
 			<h2
@@ -55,21 +46,9 @@
 			</h2>
 		</div>
 		<div class="flex justify-center my-6">
-			<Button
-				faIcon={faGithub}
-				link="https://github.com/thejaviertc"
-				text="Github"
-			/>
-			<Button
-				faIcon={faTwitter}
-				link="https://twitter.com/javiertcesp"
-				text="Twitter"
-			/>
-			<Button
-				faIcon={faSteam}
-				link="https://steamcommunity.com/id/javiertc/"
-				text="Steam"
-			/>
+			<Button faIcon={faGithub} link="https://github.com/thejaviertc" text="Github" />
+			<Button faIcon={faTwitter} link="https://twitter.com/javiertcesp" text="Twitter" />
+			<Button faIcon={faSteam} link="https://steamcommunity.com/id/javiertc/" text="Steam" />
 		</div>
 		<div class="flex justify-center">
 			<Button faIcon={faAngleDown} link="#knowledge" text="Let's Go" />
