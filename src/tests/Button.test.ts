@@ -5,6 +5,9 @@ import { describe, it } from "vitest";
 
 describe("Button Component", () => {
 	it("Renders", () => {
-		render(Button, { faIcon: faGithub, link: "https://github.com/thejaviertc", text: "Github" });
+		render(Button, {
+			faIcon: faGithub,
+			link: "https://github.com/thejaviertc",
+		});
 	});
 });

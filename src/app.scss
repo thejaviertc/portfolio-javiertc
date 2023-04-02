@@ -4,10 +4,21 @@
 
 html {
 	scroll-behavior: smooth;
+	background-color: #191919 !important;
 }
 
 body {
 	font-family: "Basier Circle";
+	@apply font-extrabold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+	@apply text-gray-100;
 }
 
 h1 {
@@ -36,4 +47,13 @@ a {
 
 svg {
 	display: inline;
+}
+
+.btn {
+	text-transform: none !important;
+	@apply text-gray-100 text-lg;
+}
+
+.navbar {
+	transition: all 0.5s ease;
 }

@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let color: string;
 	export let logo: string;
 	export let text: string;
 	export let usage: string;
@@ -36,18 +35,16 @@
 		months = (end.getFullYear() - start.getFullYear()) * 12;
 		months -= start.getMonth();
 		months += end.getMonth();
-		return months <= 0 ? 0 : months;
+		return months;
 	}
 </script>
 
-<span class="{color} px-4 py-2 mx-2 my-2 rounded-md flex items-center">
-	<img src={logo} class="h-10 sm:h-14" alt="Logo" />
-	<div class="mx-1 sm:mx-4">
-		<h5>{text}</h5>
-	</div>
-	<div class="text-right">
+<div class="{$$props.class} p-4 flex justify-center items-center rounded-lg">
+	<img src={logo} class="w-1/3 h-16" alt="Logo" />
+	<h5 class="w-1/3 mx-4 text-center">{text}</h5>
+	<div class="w-1/3 text-right">
 		<h5>{usage}</h5>
 		<h5>{level}</h5>
-		<h5>({obtainAmountTime(date)})</h5>
+		<h5>{obtainAmountTime(date)}</h5>
 	</div>
-</span>
+</div>

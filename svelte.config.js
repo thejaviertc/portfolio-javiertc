@@ -12,10 +12,7 @@ const config = {
 			fallback: null,
 		}),
 		paths: {
-			base:
-				process.env.NODE_ENV === "development"
-					? ""
-					: "/portfolio-javiertc",
+			base: process.env.NODE_ENV === "development" ? "" : "/portfolio-javiertc",
 		},
 	},
 };
