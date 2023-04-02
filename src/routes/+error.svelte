@@ -8,11 +8,7 @@
 	<title>{$page.status}</title>
 </svelte:head>
 
-<div class="bg-zinc-900 min-h-screen flex justify-center items-center">
-	<div>
-		<h2 class="text-gray-100">Something Happened - {$page.status}</h2>
-		<div class="flex justify-center my-6">
-			<Button faIcon={faBackward} link="/" text="Return Back" />
-		</div>
-	</div>
+<div class="min-h-screen flex flex-col justify-center items-center text-center">
+	<h2 class="mb-6">Something Happened - {$page.status}</h2>
+	<Button class="btn-accent" faIcon={faBackward} link="/">Return Back</Button>
 </div>
