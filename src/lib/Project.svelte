@@ -10,17 +10,19 @@
 	export let github: string;
 </script>
 
-<div class="bg-secondary grid grid-cols-2 gap-8 p-8 mx-10 rounded-xl">
+<div class="bg-secondary grid grid-cols-1 xl:grid-cols-2 gap-8 p-8 mx-5 sm:mx-10 rounded-xl">
 	<img src={image} alt="Project" />
 	<div class="flex justify-center items-center">
 		<div class="text-center mt-6">
 			<h3>{name}</h3>
 			<h4 class="my-4">{description}</h4>
-			<div class="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:justify-center">
+			<div class="flex justify-center">
 				<slot />
 			</div>
-			<div class="my-4">
-				<Button class="btn-accent" faIcon={faWifi} link={live}>Live Website</Button>
+			<div class="flex-col justify-center my-4">
+				<Button class="btn-accent mb-4 sm:mb-0" faIcon={faWifi} link={live}
+					>Live Website</Button
+				>
 				<Button class="btn-accent" faIcon={faGithub} link={github}>Github Repository</Button
 				>
 			</div>

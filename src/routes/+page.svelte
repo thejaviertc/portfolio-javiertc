@@ -37,7 +37,7 @@
 </section>
 <section id="knowledge" class="py-16">
 	<h2 class="pb-14 text-center">Knowledge</h2>
-	<div class="grid grid-cols-2 gap-10 mx-10">
+	<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mx-5 sm:mx-10">
 		<KnowledgeGroup title="Website Frontend" faIcon={faWindowMaximize}>
 			<KnowledgeItem
 				class="bg-orange-600"
@@ -104,7 +104,7 @@
 				date={new Date("September 1, 2022")}
 			/>
 			<KnowledgeItem
-				class="bg-green-600 col-span-2"
+				class="bg-green-600 md:col-span-2"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 				text="NodeJS"
 				usage={TUsage.ALWAYS}
@@ -132,7 +132,7 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
 			<KnowledgeItem
-				class="bg-blue-400 col-span-2"
+				class="bg-blue-400 md:col-span-2"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
 				text="MySQL"
 				usage={TUsage.SOMETIMES}
@@ -174,7 +174,7 @@
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
-				class="bg-red-400 col-span-2"
+				class="bg-red-400 md:col-span-2"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
 				text="NPM"
 				usage={TUsage.SOMETIMES}
