@@ -8,7 +8,6 @@ describe("Button Component", () => {
 		render(Button, {
 			faIcon: faGithub,
 			link: "https://github.com/thejaviertc",
-			text: "Github",
 		});
 	});
 });
