@@ -10,7 +10,7 @@ describe("Knowledge Component", () => {
 		testingDate.setMonth(testingDate.getMonth() - 1);
 
 		render(KnowledgeItem, {
-			color: "bg-orange-600",
+			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
 			usage: TUsage.ALWAYS,
@@ -26,7 +26,7 @@ describe("Knowledge Component", () => {
 		testingDate.setMonth(testingDate.getMonth() - 11);
 
 		render(KnowledgeItem, {
-			color: "bg-orange-600",
+			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
 			usage: TUsage.ALWAYS,
@@ -42,7 +42,7 @@ describe("Knowledge Component", () => {
 		testingDate.setFullYear(testingDate.getFullYear() - 2);
 
 		render(KnowledgeItem, {
-			color: "bg-orange-600",
+			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
 			usage: TUsage.ALWAYS,
