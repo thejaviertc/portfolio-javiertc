@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from "$app/paths";
 	import Button from "$lib/Button.svelte";
 	import {
 		faBars,
@@ -39,7 +40,7 @@
 				>
 			</ul>
 		</div>
-		<Button class="btn-ghost" faIcon={faUserAlt} link="/">Javiertc's Portfolio</Button>
+		<Button class="btn-ghost" faIcon={faUserAlt} link={base}>Javiertc's Portfolio</Button>
 	</div>
 	<div class="navbar-end hidden md:flex">
 		<ul class="menu menu-horizontal px-1">
