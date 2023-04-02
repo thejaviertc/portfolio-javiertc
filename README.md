@@ -6,5 +6,5 @@
     <img src="https://img.shields.io/github/v/release/thejaviertc/portfolio-javiertc" />
     <img src="https://img.shields.io/github/license/thejaviertc/portfolio-javiertc" />
     <img src="https://img.shields.io/github/commit-activity/m/thejaviertc/portfolio-javiertc" />
-    <img src="https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cd.yml/badge.svg" />
+    <img src="https://github.com/thejaviertc/portfolio-javiertc/actions/workflows/cicd.yml/badge.svg" />
 </div>
