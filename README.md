@@ -1,4 +1,4 @@
-![Portfolio Javiertc](https://repository-images.githubusercontent.com/285923565/9ceab580-7abc-11eb-91e2-a3826af32421)
+![Portfolio Javiertc](https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/portfolio-javiertc.png)
 
 <h1 align="center">Javiertc's Portfolio</h1>
 <div align="center" style="padding-bottom: 20px">
