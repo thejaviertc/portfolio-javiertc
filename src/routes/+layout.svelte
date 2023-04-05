@@ -24,7 +24,7 @@
 	});
 </script>
 
-<nav class={`navbar bg-${navbarColor} top-0 z-50 fixed`}>
+<nav class="navbar bg-{navbarColor} top-0 z-50 fixed">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<button tabindex="-1" class="btn btn-ghost md:hidden">
