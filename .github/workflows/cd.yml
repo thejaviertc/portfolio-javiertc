@@ -5,7 +5,7 @@ on:
         branches: [main]
 
 jobs:
-    CI:
+    CD:
         runs-on: ubuntu-latest
         steps:
             - name: 🚚 Get latest code
