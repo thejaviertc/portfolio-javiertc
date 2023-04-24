@@ -2,8 +2,7 @@ name: 🔨 CI
 
 on:
     push:
-        branches: [main, dev]
-    # workflow_call:
+        branches: [dev]
 
 jobs:
     CI:
