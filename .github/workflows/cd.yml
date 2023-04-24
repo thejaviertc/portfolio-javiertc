@@ -5,14 +5,13 @@ on:
         branches: [main]
 
 jobs:
+    CI:
+      uses: thejaviertc/portfolio-javiertc/.github/workflows/ci.yml@main
     CD:
         runs-on: ubuntu-latest
         steps:
             - name: 🚚 Get latest code
               uses: actions/checkout@v3
-
-            - name: 🔨 Run CI
-              uses: thejaviertc/portfolio-javiertc/.github/workflows/ci.yml@main
 
             - name: 🚀 Deploy Project
               uses: JamesIves/github-pages-deploy-action@v4.4.1
