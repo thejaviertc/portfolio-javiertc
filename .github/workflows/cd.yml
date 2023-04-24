@@ -1,0 +1,21 @@
+name: 🚀 CD
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    CD:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚚 Get latest code
+              uses: actions/checkout@v3
+
+            - name: 🔨 Run CI
+              uses: ./.github/workflows/ci
+
+            - name: 🚀 Deploy Project
+              uses: JamesIves/github-pages-deploy-action@v4.4.1
+              with:
+                  branch: gh-pages
+                  folder: build
