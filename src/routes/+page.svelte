@@ -188,7 +188,7 @@
 	<h2 class="pb-14 text-center">Current Projects</h2>
 	<div>
 		<Project
-			image="https://repository-images.githubusercontent.com/289227137/bab81a80-7abc-11eb-8c63-37afc324cb8b"
+			image="https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/steam-workshop-stats.png"
 			name="Steam Workshop Stats"
 			description="See the views, subscriptions and favs of your Steam
 			Workshop addons!"
