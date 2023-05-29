@@ -8,7 +8,7 @@
 		"@fortawesome/free-brands-svg-icons": "^6.4.0",
 		"@fortawesome/free-solid-svg-icons": "^6.4.0",
 		"daisyui": "^2.51.6",
-		"svelte-fa": "^3.0.3"
+		"svelte-fa": "^3.0.4"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^2.0.2",
