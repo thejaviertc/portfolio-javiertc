@@ -24,15 +24,15 @@
 	});
 </script>
 
-<nav class="navbar bg-{navbarColor} top-0 z-50 fixed">
+<nav class="navbar bg-{navbarColor} fixed">
 	<div class="navbar-start">
 		<div class="dropdown">
-			<button tabindex="-1" class="btn btn-ghost md:hidden">
+			<button tabindex="-1" class="btn btn-ghost lg:hidden">
 				<Fa icon={faBars} />
 			</button>
 			<ul
 				tabindex="-1"
-				class="menu menu-compact dropdown-content mt-6 p-2 shadow bg-secondary rounded-box w-72"
+				class="menu menu-sm dropdown-content mt-6 p-2 shadow bg-secondary rounded-box w-52"
 			>
 				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">Knowledge</Button>
 				<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects"
@@ -42,7 +42,7 @@
 		</div>
 		<Button class="btn-ghost" faIcon={faUserAlt} link={base}>Javiertc's Portfolio</Button>
 	</div>
-	<div class="navbar-end hidden md:flex">
+	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">Knowledge</Button>
 			<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects">Projects</Button>
