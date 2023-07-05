@@ -43,7 +43,7 @@
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 				text="HTML"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
@@ -51,7 +51,7 @@
 				class="bg-sky-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 				text="CSS"
-				usage={TUsage.SOMETIMES}
+				usage={TUsage.RARELY}
 				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>
@@ -60,14 +60,14 @@
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
 				text="Sass"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.MINIMAL}
+				level={TLevel.BASIC}
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
 				class="bg-teal-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
 				text="Tailwind CSS"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
 				date={new Date("August 1, 2022")}
 			/>
@@ -76,22 +76,22 @@
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 				text="Javascript"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
+				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
 				class="bg-blue-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
 				text="Typescript"
-				usage={TUsage.ALWAYS}
-				level={TLevel.COMPETENT}
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 				text="Svelte"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("August 1, 2022")}
 			/>
@@ -99,7 +99,7 @@
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 				text="SvelteKit"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
 				date={new Date("September 1, 2022")}
 			/>
@@ -107,8 +107,8 @@
 				class="bg-green-600 md:col-span-2"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 				text="NodeJS"
-				usage={TUsage.ALWAYS}
-				level={TLevel.COMPETENT}
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
 		</KnowledgeGroup>
@@ -122,12 +122,12 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-fuchsia-900"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-				text="C#"
+				class="bg-orange-700"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
+				text="Rust"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.BASIC}
-				date={new Date("December 4, 2022")}
+				level={TLevel.MINIMAL}
+				date={new Date("July 1, 2023")}
 			/>
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
@@ -145,7 +145,7 @@
 				class="bg-sky-700"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
 				text="VSCode"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
@@ -153,23 +153,23 @@
 				class="bg-amber-500"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 				text="Git"
-				usage={TUsage.ALWAYS}
-				level={TLevel.COMPETENT}
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
 				class="bg-gray-700"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
 				text="Github"
-				usage={TUsage.ALWAYS}
-				level={TLevel.COMPETENT}
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
 				class="bg-slate-900"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
 				text="Linux"
-				usage={TUsage.ALWAYS}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2021")}
 			/>
@@ -177,7 +177,7 @@
 				class="bg-red-400 md:col-span-2"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
 				text="NPM"
-				usage={TUsage.SOMETIMES}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>

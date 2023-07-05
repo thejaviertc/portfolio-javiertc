@@ -13,7 +13,7 @@ describe("Knowledge Component", () => {
 			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
-			usage: TUsage.ALWAYS,
+			usage: TUsage.RECURRENTLY,
 			level: TLevel.ADVANCED,
 			date: testingDate,
 		});
@@ -29,7 +29,7 @@ describe("Knowledge Component", () => {
 			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
-			usage: TUsage.ALWAYS,
+			usage: TUsage.RECURRENTLY,
 			level: TLevel.ADVANCED,
 			date: testingDate,
 		});
@@ -45,7 +45,7 @@ describe("Knowledge Component", () => {
 			class: "bg-orange-600",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 			text: "HTML",
-			usage: TUsage.ALWAYS,
+			usage: TUsage.RECURRENTLY,
 			level: TLevel.ADVANCED,
 			date: testingDate,
 		});
