@@ -15,7 +15,7 @@
 	let navbarColor: string = "secondary";
 
 	onMount(() => {
-		window.onscroll = function () {
+		window.onscroll = () => {
 			navbarColor =
 				document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100
 					? "primary"
