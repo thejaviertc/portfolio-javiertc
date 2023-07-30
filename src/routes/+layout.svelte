@@ -15,7 +15,7 @@
 	let navbarColor: string = "secondary";
 
 	onMount(() => {
-		window.onscroll = function () {
+		window.onscroll = () => {
 			navbarColor =
 				document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100
 					? "primary"
@@ -32,7 +32,7 @@
 			</button>
 			<ul
 				tabindex="-1"
-				class="menu menu-sm dropdown-content mt-6 p-2 shadow bg-secondary rounded-box w-52"
+				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow bg-secondary rounded-box w-52"
 			>
 				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">Knowledge</Button>
 				<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects"
