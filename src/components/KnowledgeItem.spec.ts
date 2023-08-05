@@ -1,8 +1,8 @@
-import TLevel from "$lib/enums/TLevel";
-import TUsage from "$lib/enums/TUsage";
-import KnowledgeItem from "$lib/KnowledgeItem.svelte";
+import TLevel from "$lib/TLevel";
+import TUsage from "$lib/TUsage";
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
+import KnowledgeItem from "./KnowledgeItem.svelte";
 
 describe("Knowledge Component", () => {
 	it("Renders 'Just Starting' when 2 months have not yet passed", () => {
