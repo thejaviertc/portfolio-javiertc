@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Badge from "$lib/Badge.svelte";
-	import Button from "$lib/Button.svelte";
-	import TLevel from "$lib/enums/TLevel";
-	import TUsage from "$lib/enums/TUsage";
-	import KnowledgeGroup from "$lib/KnowledgeGroup.svelte";
-	import KnowledgeItem from "$lib/KnowledgeItem.svelte";
-	import Project from "$lib/Project.svelte";
+	import Badge from "$components/Badge.svelte";
+	import Button from "$components/Button.svelte";
+	import KnowledgeGroup from "$components/KnowledgeGroup.svelte";
+	import KnowledgeItem from "$components/KnowledgeItem.svelte";
+	import Project from "$components/Project.svelte";
+	import TLevel from "$lib/TLevel";
+	import TUsage from "$lib/TUsage";
 	import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
 	import {
 		faAngleDown,
