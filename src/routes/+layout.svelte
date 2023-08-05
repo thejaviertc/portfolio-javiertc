@@ -1,6 +1,8 @@
 <script lang="ts">
+	import "../app.scss";
+
 	import { base } from "$app/paths";
-	import Button from "$lib/Button.svelte";
+	import Button from "$components/Button.svelte";
 	import {
 		faBars,
 		faBookAtlas,
@@ -9,8 +11,6 @@
 	} from "@fortawesome/free-solid-svg-icons";
 	import { onMount } from "svelte";
 	import Fa from "svelte-fa";
-
-	import "../app.scss";
 
 	let navbarColor: string = "secondary";
 
