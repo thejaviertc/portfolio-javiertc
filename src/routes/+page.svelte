@@ -38,7 +38,7 @@
 <section id="knowledge" class="py-16">
 	<h2 class="pb-14 text-center">Knowledge</h2>
 	<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mx-5 sm:mx-10">
-		<KnowledgeGroup title="Website Frontend" faIcon={faWindowMaximize}>
+		<KnowledgeGroup title="Web Development" faIcon={faWindowMaximize}>
 			<KnowledgeItem
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -112,34 +112,6 @@
 				date={new Date("2020")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Desktop" faIcon={faComputer}>
-			<KnowledgeItem
-				class="bg-orange-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-				text="Java"
-				usage={TUsage.RARELY}
-				level={TLevel.COMPETENT}
-				date={new Date("2020")}
-			/>
-			<KnowledgeItem
-				class="bg-orange-700"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
-				text="Rust"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.MINIMAL}
-				date={new Date("July 1, 2023")}
-			/>
-		</KnowledgeGroup>
-		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
-			<KnowledgeItem
-				class="bg-blue-400 md:col-span-2"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-				text="MySQL"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
-				date={new Date("2021")}
-			/>
-		</KnowledgeGroup>
 		<KnowledgeGroup title="Tools" faIcon={faTools}>
 			<KnowledgeItem
 				class="bg-sky-700"
@@ -180,6 +152,16 @@
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2020")}
+			/>
+		</KnowledgeGroup>
+		<KnowledgeGroup class="md:col-span-2" title="Databases" faIcon={faDatabase}>
+			<KnowledgeItem
+				class="bg-blue-400 md:col-span-2"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+				text="MySQL"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.COMPETENT}
+				date={new Date("2021")}
 			/>
 		</KnowledgeGroup>
 	</div>
