@@ -10,7 +10,6 @@
 	import {
 		faAngleDown,
 		faCode,
-		faComputer,
 		faDatabase,
 		faTools,
 		faWindowMaximize,
@@ -38,7 +37,7 @@
 <section id="knowledge" class="py-16">
 	<h2 class="pb-14 text-center">Knowledge</h2>
 	<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mx-5 sm:mx-10">
-		<KnowledgeGroup title="Website Frontend" faIcon={faWindowMaximize}>
+		<KnowledgeGroup title="Web Development" faIcon={faWindowMaximize}>
 			<KnowledgeItem
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -112,34 +111,6 @@
 				date={new Date("2020")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Desktop" faIcon={faComputer}>
-			<KnowledgeItem
-				class="bg-orange-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-				text="Java"
-				usage={TUsage.RARELY}
-				level={TLevel.COMPETENT}
-				date={new Date("2020")}
-			/>
-			<KnowledgeItem
-				class="bg-orange-700"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
-				text="Rust"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.MINIMAL}
-				date={new Date("July 1, 2023")}
-			/>
-		</KnowledgeGroup>
-		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
-			<KnowledgeItem
-				class="bg-blue-400 md:col-span-2"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-				text="MySQL"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
-				date={new Date("2021")}
-			/>
-		</KnowledgeGroup>
 		<KnowledgeGroup title="Tools" faIcon={faTools}>
 			<KnowledgeItem
 				class="bg-sky-700"
@@ -182,6 +153,16 @@
 				date={new Date("2020")}
 			/>
 		</KnowledgeGroup>
+		<KnowledgeGroup class="md:col-span-2" title="Databases" faIcon={faDatabase}>
+			<KnowledgeItem
+				class="bg-blue-400 md:col-span-2"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+				text="MySQL"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.COMPETENT}
+				date={new Date("2021")}
+			/>
+		</KnowledgeGroup>
 	</div>
 </section>
 <section id="projects" class="pb-16">
@@ -190,8 +171,7 @@
 		<Project
 			image="https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/steam-workshop-stats.png"
 			name="Steam Workshop Stats"
-			description="See the views, subscriptions and favs of your Steam
-			Workshop addons!"
+			description="See the number of views, subs, likes and more of your addons!"
 			live="https://thejaviertc.github.io/steam-workshop-stats/"
 			github="https://github.com/thejaviertc/steam-workshop-stats"
 		>
@@ -209,6 +189,9 @@
 			/>
 			<Badge
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+			/>
+			<Badge
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 			/>
 		</Project>
 	</div>
