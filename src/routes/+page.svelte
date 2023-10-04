@@ -190,6 +190,9 @@
 			<Badge
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 			/>
+			<Badge
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+			/>
 		</Project>
 	</div>
 </section>
