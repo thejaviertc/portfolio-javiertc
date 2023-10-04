@@ -12,7 +12,7 @@
 		faCode,
 		faDatabase,
 		faTools,
-		faWindowMaximize
+		faWindowMaximize,
 	} from "@fortawesome/free-solid-svg-icons";
 	import Fa from "svelte-fa";
 </script>
@@ -171,8 +171,7 @@
 		<Project
 			image="https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/steam-workshop-stats.png"
 			name="Steam Workshop Stats"
-			description="See the views, subscriptions and favs of your Steam
-			Workshop addons!"
+			description="See the number of views, subs, likes and more of your addons!"
 			live="https://thejaviertc.github.io/steam-workshop-stats/"
 			github="https://github.com/thejaviertc/steam-workshop-stats"
 		>
