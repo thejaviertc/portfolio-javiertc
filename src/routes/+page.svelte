@@ -10,10 +10,9 @@
 	import {
 		faAngleDown,
 		faCode,
-		faComputer,
 		faDatabase,
 		faTools,
-		faWindowMaximize,
+		faWindowMaximize
 	} from "@fortawesome/free-solid-svg-icons";
 	import Fa from "svelte-fa";
 </script>
