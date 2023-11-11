@@ -34,7 +34,7 @@
 	</div>
 	<Button class="btn-accent" faIcon={faAngleDown} link="#knowledge">Let's Go</Button>
 </section>
-<section id="knowledge" class="py-16">
+<section id="knowledge" class="py-20">
 	<h2 class="pb-14 text-center">Knowledge</h2>
 	<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mx-5 sm:mx-10">
 		<KnowledgeGroup title="Web Development" faIcon={faWindowMaximize}>
