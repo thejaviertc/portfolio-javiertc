@@ -1,4 +1,5 @@
 <script lang="ts">
+	export let color: string;
 	export let logo: string;
 	export let text: string;
 	export let usage: string;
@@ -39,7 +40,7 @@
 	}
 </script>
 
-<div class="{$$props.class} p-4 flex flex-auto justify-center items-center rounded-lg shadow-md">
+<div class="{color} p-4 flex flex-auto justify-center items-center rounded-lg shadow-md">
 	<img src={logo} class="h-16" alt="Logo" />
 	<h5 class="mx-12 text-center">{text}</h5>
 	<div class="text-right">

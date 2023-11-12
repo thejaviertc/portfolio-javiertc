@@ -40,7 +40,7 @@
 	<div class="flex flex-wrap gap-8 justify-center">
 		<KnowledgeGroup title="Programming Languages" faIcon={faCode}>
 			<KnowledgeItem
-				class="bg-yellow-400"
+				color="bg-yellow-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 				text="Javascript"
 				usage={TUsage.SOMETIMES}
@@ -48,7 +48,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-blue-600"
+				color="bg-blue-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
 				text="Typescript"
 				usage={TUsage.RECURRENTLY}
@@ -58,7 +58,7 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Frontend" faIcon={faDisplay}>
 			<KnowledgeItem
-				class="bg-orange-600"
+				color="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 				text="HTML"
 				usage={TUsage.RECURRENTLY}
@@ -66,7 +66,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-sky-600"
+				color="bg-sky-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 				text="CSS"
 				usage={TUsage.RARELY}
@@ -74,7 +74,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-pink-400"
+				color="bg-pink-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
 				text="Sass"
 				usage={TUsage.SOMETIMES}
@@ -82,7 +82,7 @@
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
-				class="bg-teal-600"
+				color="bg-teal-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
 				text="Tailwind CSS"
 				usage={TUsage.RECURRENTLY}
@@ -90,7 +90,7 @@
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
-				class="bg-orange-600"
+				color="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 				text="Svelte"
 				usage={TUsage.RECURRENTLY}
@@ -98,7 +98,7 @@
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
-				class="bg-orange-600"
+				color="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 				text="SvelteKit"
 				usage={TUsage.RECURRENTLY}
@@ -108,7 +108,7 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Backend" faIcon={faServer}>
 			<KnowledgeItem
-				class="bg-green-600"
+				color="bg-green-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 				text="NodeJS"
 				usage={TUsage.RECURRENTLY}
@@ -118,7 +118,7 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
 			<KnowledgeItem
-				class="bg-blue-400"
+				color="bg-blue-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
 				text="MySQL"
 				usage={TUsage.SOMETIMES}
@@ -128,7 +128,7 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Tools" faIcon={faTools}>
 			<KnowledgeItem
-				class="bg-sky-700"
+				color="bg-sky-700"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
 				text="VSCode"
 				usage={TUsage.RECURRENTLY}
@@ -136,7 +136,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-amber-500"
+				color="bg-amber-500"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 				text="Git"
 				usage={TUsage.RECURRENTLY}
@@ -144,7 +144,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-gray-700"
+				color="bg-gray-700"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
 				text="Github"
 				usage={TUsage.RECURRENTLY}
@@ -152,7 +152,7 @@
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
-				class="bg-slate-900"
+				color="bg-slate-900"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
 				text="Linux"
 				usage={TUsage.RECURRENTLY}
@@ -160,7 +160,7 @@
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
-				class="bg-red-400"
+				color="bg-red-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
 				text="NPM"
 				usage={TUsage.RECURRENTLY}
