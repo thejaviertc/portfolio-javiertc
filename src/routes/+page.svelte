@@ -8,19 +8,29 @@
 	import TLevel from "$lib/TLevel";
 	import TUsage from "$lib/TUsage";
 
+	import aspnetLogo from "$lib/assets/knowledge/aspnet.svg";
+	import bootstrapLogo from "$lib/assets/knowledge/bootstrap.svg";
+	import csharpLogo from "$lib/assets/knowledge/csharp.svg";
 	import cssLogo from "$lib/assets/knowledge/css.svg";
+	import expressjsLogo from "$lib/assets/knowledge/expressjs.svg";
+	import filezillaLogo from "$lib/assets/knowledge/filezilla.svg";
 	import gitLogo from "$lib/assets/knowledge/git.svg";
 	import githubLogo from "$lib/assets/knowledge/github.svg";
 	import htmlLogo from "$lib/assets/knowledge/html.svg";
+	import javaLogo from "$lib/assets/knowledge/java.svg";
 	import javascriptLogo from "$lib/assets/knowledge/javascript.svg";
+	import jenkinsLogo from "$lib/assets/knowledge/jenkins.svg";
+	import linuxLogo from "$lib/assets/knowledge/linux.svg";
 	import mysqlLogo from "$lib/assets/knowledge/mysql.svg";
 	import nodejsLogo from "$lib/assets/knowledge/nodejs.svg";
-	import npmLogo from "$lib/assets/knowledge/npm.svg";
-	import linuxLogo from "$lib/assets/knowledge/opensuse.svg";
 	import sassLogo from "$lib/assets/knowledge/sass.svg";
+	import sonarcloudLogo from "$lib/assets/knowledge/sonarcloud.svg";
+	import sqlLogo from "$lib/assets/knowledge/sql.svg";
 	import svelteLogo from "$lib/assets/knowledge/svelte.svg";
 	import tailwindLogo from "$lib/assets/knowledge/tailwind.svg";
+	import trelloLogo from "$lib/assets/knowledge/trello.svg";
 	import typescriptLogo from "$lib/assets/knowledge/typescript.svg";
+	import vitestLogo from "$lib/assets/knowledge/vitest.svg";
 	import vscodeLogo from "$lib/assets/knowledge/vscode.svg";
 
 	import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
@@ -57,7 +67,7 @@
 	<div class="flex flex-wrap gap-8 justify-center">
 		<KnowledgeGroup title="Programming Languages" faIcon={faCode}>
 			<KnowledgeItem
-				color="bg-yellow-400"
+				color="bg-yellow-500"
 				logo={javascriptLogo}
 				text="Javascript"
 				usage={TUsage.RARELY}
@@ -71,6 +81,22 @@
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2021")}
+			/>
+			<KnowledgeItem
+				color="bg-orange-500"
+				logo={javaLogo}
+				text="Java"
+				usage={TUsage.RARELY}
+				level={TLevel.BASIC}
+				date={new Date("2020")}
+			/>
+			<KnowledgeItem
+				color="bg-purple-700"
+				logo={csharpLogo}
+				text="C#"
+				usage={TUsage.RARELY}
+				level={TLevel.MINIMAL}
+				date={new Date("November 1, 2023")}
 			/>
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Frontend" faIcon={faDisplay}>
@@ -107,6 +133,14 @@
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
+				color="bg-violet-700"
+				logo={bootstrapLogo}
+				text="Bootstrap"
+				usage={TUsage.RARELY}
+				level={TLevel.COMPETENT}
+				date={new Date("2019")}
+			/>
+			<KnowledgeItem
 				color="bg-orange-600"
 				logo={svelteLogo}
 				text="Svelte"
@@ -132,8 +166,32 @@
 				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>
+			<KnowledgeItem
+				color="bg-yellow-500"
+				logo={expressjsLogo}
+				text="ExpressJS"
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.COMPETENT}
+				date={new Date("2021")}
+			/>
+			<KnowledgeItem
+				color="bg-purple-700"
+				logo={aspnetLogo}
+				text="ASP.NET Core"
+				usage={TUsage.RARELY}
+				level={TLevel.MINIMAL}
+				date={new Date("November 1, 2023")}
+			/>
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
+			<KnowledgeItem
+				color="bg-blue-400"
+				logo={sqlLogo}
+				text="SQL"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.COMPETENT}
+				date={new Date("2021")}
+			/>
 			<KnowledgeItem
 				color="bg-blue-400"
 				logo={mysqlLogo}
@@ -158,10 +216,10 @@
 				text="Git"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
-				date={new Date("2020")}
+				date={new Date("2022")}
 			/>
 			<KnowledgeItem
-				color="bg-gray-700"
+				color="bg-gray-800"
 				logo={githubLogo}
 				text="Github"
 				usage={TUsage.RECURRENTLY}
@@ -171,18 +229,58 @@
 			<KnowledgeItem
 				color="bg-slate-900"
 				logo={linuxLogo}
-				text="Linux (Opensuse)"
+				text="Linux"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
-				color="bg-red-700"
-				logo={npmLogo}
-				text="NPM"
-				usage={TUsage.RECURRENTLY}
+				color="bg-blue-400"
+				logo={mysqlLogo}
+				text="MySQL Workbench"
+				usage={TUsage.SOMETIMES}
 				level={TLevel.COMPETENT}
-				date={new Date("2020")}
+				date={new Date("2021")}
+			/>
+			<KnowledgeItem
+				color="bg-green-700"
+				logo={vitestLogo}
+				text="Vitest"
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.BASIC}
+				date={new Date("May 1, 2023")}
+			/>
+			<KnowledgeItem
+				color="bg-slate-900"
+				logo={jenkinsLogo}
+				text="Jenkins"
+				usage={TUsage.RARELY}
+				level={TLevel.MINIMAL}
+				date={new Date("May 1, 2023")}
+			/>
+			<KnowledgeItem
+				color="bg-amber-500"
+				logo={sonarcloudLogo}
+				text="SonarCloud"
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.BASIC}
+				date={new Date("May 1, 2023")}
+			/>
+			<KnowledgeItem
+				color="bg-red-700"
+				logo={filezillaLogo}
+				text="Filezilla"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.COMPETENT}
+				date={new Date("2019")}
+			/>
+			<KnowledgeItem
+				color="bg-blue-600"
+				logo={trelloLogo}
+				text="Trello"
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
+				date={new Date("2019")}
 			/>
 		</KnowledgeGroup>
 	</div>
