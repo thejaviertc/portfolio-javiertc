@@ -43,8 +43,8 @@
 				color="bg-yellow-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 				text="Javascript"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.ADVANCED}
+				usage={TUsage.RARELY}
+				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
@@ -52,7 +52,7 @@
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
 				text="Typescript"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.ADVANCED}
+				level={TLevel.COMPETENT}
 				date={new Date("2021")}
 			/>
 		</KnowledgeGroup>
@@ -63,7 +63,7 @@
 				text="HTML"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
-				date={new Date("2020")}
+				date={new Date("2019")}
 			/>
 			<KnowledgeItem
 				color="bg-sky-600"
@@ -71,7 +71,7 @@
 				text="CSS"
 				usage={TUsage.RARELY}
 				level={TLevel.COMPETENT}
-				date={new Date("2020")}
+				date={new Date("2019")}
 			/>
 			<KnowledgeItem
 				color="bg-pink-400"
@@ -84,7 +84,7 @@
 			<KnowledgeItem
 				color="bg-teal-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-				text="Tailwind CSS"
+				text="Tailwind"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
 				date={new Date("August 1, 2022")}
@@ -112,7 +112,7 @@
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 				text="NodeJS"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.ADVANCED}
+				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>
 		</KnowledgeGroup>
@@ -133,14 +133,14 @@
 				text="VSCode"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
-				date={new Date("2020")}
+				date={new Date("2019")}
 			/>
 			<KnowledgeItem
 				color="bg-amber-500"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 				text="Git"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.ADVANCED}
+				level={TLevel.COMPETENT}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
