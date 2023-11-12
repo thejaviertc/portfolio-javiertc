@@ -1,7 +1,7 @@
 {
 	"name": "portfolio-javiertc",
 	"author": "javiertc",
-	"version": "1.7.10",
+	"version": "1.8.0",
 	"type": "module",
 	"homepage": "https://thejaviertc.github.io/portfolio-javiertc/",
 	"dependencies": {
