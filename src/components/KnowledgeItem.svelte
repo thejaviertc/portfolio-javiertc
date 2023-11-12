@@ -41,7 +41,7 @@
 </script>
 
 <div class="{color} p-4 flex flex-auto justify-center items-center rounded-lg shadow-md">
-	<img src={logo} class="h-16" alt="Logo" />
+	<img src={logo} class="w-16 h-16" alt="Logo" />
 	<h5 class="mx-12 text-center">{text}</h5>
 	<div class="text-right">
 		<h5>Usage: {usage}</h5>

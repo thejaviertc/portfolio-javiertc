@@ -4,8 +4,25 @@
 	import KnowledgeGroup from "$components/KnowledgeGroup.svelte";
 	import KnowledgeItem from "$components/KnowledgeItem.svelte";
 	import Project from "$components/Project.svelte";
+
 	import TLevel from "$lib/TLevel";
 	import TUsage from "$lib/TUsage";
+
+	import cssLogo from "$lib/assets/knowledge/css.svg";
+	import gitLogo from "$lib/assets/knowledge/git.svg";
+	import githubLogo from "$lib/assets/knowledge/github.svg";
+	import htmlLogo from "$lib/assets/knowledge/html.svg";
+	import javascriptLogo from "$lib/assets/knowledge/javascript.svg";
+	import mysqlLogo from "$lib/assets/knowledge/mysql.svg";
+	import nodejsLogo from "$lib/assets/knowledge/nodejs.svg";
+	import npmLogo from "$lib/assets/knowledge/npm.svg";
+	import linuxLogo from "$lib/assets/knowledge/opensuse.svg";
+	import sassLogo from "$lib/assets/knowledge/sass.svg";
+	import svelteLogo from "$lib/assets/knowledge/svelte.svg";
+	import tailwindLogo from "$lib/assets/knowledge/tailwind.svg";
+	import typescriptLogo from "$lib/assets/knowledge/typescript.svg";
+	import vscodeLogo from "$lib/assets/knowledge/vscode.svg";
+
 	import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
 	import {
 		faAngleDown,
@@ -41,7 +58,7 @@
 		<KnowledgeGroup title="Programming Languages" faIcon={faCode}>
 			<KnowledgeItem
 				color="bg-yellow-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+				logo={javascriptLogo}
 				text="Javascript"
 				usage={TUsage.RARELY}
 				level={TLevel.COMPETENT}
@@ -49,7 +66,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-blue-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+				logo={typescriptLogo}
 				text="Typescript"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
@@ -59,7 +76,7 @@
 		<KnowledgeGroup title="Frontend" faIcon={faDisplay}>
 			<KnowledgeItem
 				color="bg-orange-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+				logo={htmlLogo}
 				text="HTML"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
@@ -67,7 +84,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-sky-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+				logo={cssLogo}
 				text="CSS"
 				usage={TUsage.RARELY}
 				level={TLevel.COMPETENT}
@@ -75,7 +92,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-pink-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+				logo={sassLogo}
 				text="Sass"
 				usage={TUsage.SOMETIMES}
 				level={TLevel.BASIC}
@@ -83,7 +100,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-teal-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+				logo={tailwindLogo}
 				text="Tailwind"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
@@ -91,7 +108,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-orange-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+				logo={svelteLogo}
 				text="Svelte"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
@@ -99,7 +116,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-orange-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+				logo={svelteLogo}
 				text="SvelteKit"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
@@ -108,8 +125,8 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Backend" faIcon={faServer}>
 			<KnowledgeItem
-				color="bg-green-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+				color="bg-green-700"
+				logo={nodejsLogo}
 				text="NodeJS"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
@@ -119,7 +136,7 @@
 		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
 			<KnowledgeItem
 				color="bg-blue-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+				logo={mysqlLogo}
 				text="MySQL"
 				usage={TUsage.SOMETIMES}
 				level={TLevel.COMPETENT}
@@ -128,8 +145,8 @@
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Tools" faIcon={faTools}>
 			<KnowledgeItem
-				color="bg-sky-700"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+				color="bg-sky-600"
+				logo={vscodeLogo}
 				text="VSCode"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
@@ -137,7 +154,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-amber-500"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+				logo={gitLogo}
 				text="Git"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
@@ -145,7 +162,7 @@
 			/>
 			<KnowledgeItem
 				color="bg-gray-700"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+				logo={githubLogo}
 				text="Github"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
@@ -153,15 +170,15 @@
 			/>
 			<KnowledgeItem
 				color="bg-slate-900"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-				text="Linux"
+				logo={linuxLogo}
+				text="Linux (Opensuse)"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
-				color="bg-red-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+				color="bg-red-700"
+				logo={npmLogo}
 				text="NPM"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
