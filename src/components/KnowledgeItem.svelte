@@ -39,12 +39,12 @@
 	}
 </script>
 
-<div class="{$$props.class} p-4 flex justify-center items-center rounded-lg">
-	<img src={logo} class="w-1/3 h-16" alt="Logo" />
-	<h5 class="w-1/3 mx-4 text-center">{text}</h5>
-	<div class="w-1/3 text-right">
-		<h5>{usage}</h5>
-		<h5>{level}</h5>
-		<h5>{obtainAmountTime(date)}</h5>
+<div class="{$$props.class} p-4 flex flex-auto justify-center items-center rounded-lg shadow-md">
+	<img src={logo} class="h-16" alt="Logo" />
+	<h5 class="mx-12 text-center">{text}</h5>
+	<div class="text-right">
+		<h5>Usage: {usage}</h5>
+		<h5>Knowledge: {level}</h5>
+		<h5>Started Using It: {obtainAmountTime(date)}</h5>
 	</div>
 </div>

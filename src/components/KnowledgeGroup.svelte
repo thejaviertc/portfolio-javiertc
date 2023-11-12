@@ -6,10 +6,9 @@
 	export let faIcon: IconDefinition;
 </script>
 
-<div class="{$$props.class} bg-secondary py-8 text-center rounded-xl shadow-xl">
-	<h1><Fa icon={faIcon} /></h1>
-	<h2 class="my-8">{title}</h2>
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 sm:mx-10">
+<div class="{$$props.class} bg-secondary rounded-xl shadow-md p-8">
+	<h3 class="text-center mb-8"><Fa icon={faIcon} /> {title}</h3>
+	<div class="flex flex-wrap gap-8">
 		<slot />
 	</div>
 </div>

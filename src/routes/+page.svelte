@@ -11,8 +11,9 @@
 		faAngleDown,
 		faCode,
 		faDatabase,
+		faDisplay,
+		faServer,
 		faTools,
-		faWindowMaximize,
 	} from "@fortawesome/free-solid-svg-icons";
 	import Fa from "svelte-fa";
 </script>
@@ -34,10 +35,28 @@
 	</div>
 	<Button class="btn-accent" faIcon={faAngleDown} link="#knowledge">Let's Go</Button>
 </section>
-<section id="knowledge" class="py-20">
-	<h2 class="pb-14 text-center">Knowledge</h2>
-	<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mx-5 sm:mx-10">
-		<KnowledgeGroup title="Web Development" faIcon={faWindowMaximize}>
+<section id="knowledge" class="pt-20 mb-10 mx-5 sm:mx-10">
+	<h2 class="mb-10 text-center">Knowledge</h2>
+	<div class="flex flex-wrap gap-8 justify-center">
+		<KnowledgeGroup title="Programming Languages" faIcon={faCode}>
+			<KnowledgeItem
+				class="bg-yellow-400"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+				text="Javascript"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.ADVANCED}
+				date={new Date("2020")}
+			/>
+			<KnowledgeItem
+				class="bg-blue-600"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+				text="Typescript"
+				usage={TUsage.RECURRENTLY}
+				level={TLevel.ADVANCED}
+				date={new Date("2021")}
+			/>
+		</KnowledgeGroup>
+		<KnowledgeGroup title="Frontend" faIcon={faDisplay}>
 			<KnowledgeItem
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -71,22 +90,6 @@
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
-				class="bg-yellow-400"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-				text="Javascript"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.ADVANCED}
-				date={new Date("2020")}
-			/>
-			<KnowledgeItem
-				class="bg-blue-600"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-				text="Typescript"
-				usage={TUsage.RECURRENTLY}
-				level={TLevel.ADVANCED}
-				date={new Date("2021")}
-			/>
-			<KnowledgeItem
 				class="bg-orange-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
 				text="Svelte"
@@ -102,13 +105,25 @@
 				level={TLevel.BASIC}
 				date={new Date("September 1, 2022")}
 			/>
+		</KnowledgeGroup>
+		<KnowledgeGroup title="Backend" faIcon={faServer}>
 			<KnowledgeItem
-				class="bg-green-600 md:col-span-2"
+				class="bg-green-600"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 				text="NodeJS"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.ADVANCED}
 				date={new Date("2020")}
+			/>
+		</KnowledgeGroup>
+		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
+			<KnowledgeItem
+				class="bg-blue-400"
+				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+				text="MySQL"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.COMPETENT}
+				date={new Date("2021")}
 			/>
 		</KnowledgeGroup>
 		<KnowledgeGroup title="Tools" faIcon={faTools}>
@@ -145,22 +160,12 @@
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
-				class="bg-red-400 md:col-span-2"
+				class="bg-red-400"
 				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
 				text="NPM"
 				usage={TUsage.RECURRENTLY}
 				level={TLevel.COMPETENT}
 				date={new Date("2020")}
-			/>
-		</KnowledgeGroup>
-		<KnowledgeGroup class="md:col-span-2" title="Databases" faIcon={faDatabase}>
-			<KnowledgeItem
-				class="bg-blue-400 md:col-span-2"
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-				text="MySQL"
-				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
-				date={new Date("2021")}
 			/>
 		</KnowledgeGroup>
 	</div>
