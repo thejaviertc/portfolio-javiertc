@@ -10,7 +10,7 @@
 	export let github: string;
 </script>
 
-<div class="bg-secondary grid grid-cols-1 xl:grid-cols-2 gap-8 p-8 mx-5 sm:mx-10 rounded-xl">
+<div class="bg-secondary grid grid-cols-1 xl:grid-cols-2 gap-8 p-8 mx-5 sm:mx-10 rounded-xl shadow-md">
 	<img src={image} alt="Project" />
 	<div class="flex justify-center items-center">
 		<div class="text-center mt-6">

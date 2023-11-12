@@ -285,8 +285,8 @@
 		</KnowledgeGroup>
 	</div>
 </section>
-<section id="projects" class="pb-16">
-	<h2 class="pb-14 text-center">Current Projects</h2>
+<section id="projects" class="mb-10">
+	<h2 class="mb-10 text-center">Current Projects</h2>
 	<div>
 		<Project
 			image="https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/steam-workshop-stats.png"
