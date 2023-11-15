@@ -40,10 +40,12 @@
 	}
 </script>
 
-<div class="{color} p-4 flex flex-auto justify-center items-center rounded-lg shadow-md">
+<div
+	class="{color} p-4 flex flex-auto flex-col sm:flex-row justify-center items-center rounded-lg shadow-md"
+>
 	<img src={logo} class="w-16 h-16" alt="Logo" />
-	<h5 class="mx-12 text-center">{text}</h5>
-	<div class="text-right">
+	<h5 class="mx-12 my-2 sm:my-0 text-center">{text}</h5>
+	<div class="text-center sm:text-right">
 		<h5>Usage: {usage}</h5>
 		<h5>Knowledge: {level}</h5>
 		<h5>Started Using It: {obtainAmountTime(date)}</h5>
