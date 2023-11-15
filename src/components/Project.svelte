@@ -10,13 +10,15 @@
 	export let github: string;
 </script>
 
-<div class="bg-secondary grid grid-cols-1 xl:grid-cols-2 gap-8 p-8 mx-5 sm:mx-10 rounded-xl shadow-md">
-	<img src={image} alt="Project" />
+<div
+	class="bg-secondary grid grid-cols-1 xl:grid-cols-2 gap-8 p-8 mx-5 sm:mx-10 rounded-xl shadow-md"
+>
+	<img src={image} alt="Project" class="hidden sm:block" />
 	<div class="flex justify-center items-center">
 		<div class="text-center mt-6">
 			<h3>{name}</h3>
 			<h4 class="my-4">{description}</h4>
-			<div class="flex justify-center">
+			<div class="flex flex-wrap gap-8 justify-center">
 				<slot />
 			</div>
 			<div class="flex-col justify-center my-4">
