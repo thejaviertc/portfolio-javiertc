@@ -33,6 +33,8 @@
 	import vitestLogo from "$lib/assets/knowledge/vitest.svg";
 	import vscodeLogo from "$lib/assets/knowledge/vscode.svg";
 
+	import steamWorkshopStatsBanner from "$lib/assets/projects/steam-workshop-stats.jpg";
+
 	import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
 	import {
 		faAngleDown,
@@ -289,7 +291,7 @@
 	<h2 class="mb-10 text-center">Current Projects</h2>
 	<div>
 		<Project
-			image="https://raw.githubusercontent.com/thejaviertc/thejaviertc/master/images/steam-workshop-stats.png"
+			image={steamWorkshopStatsBanner}
 			name="Steam Workshop Stats"
 			description="See the number of views, subs, likes and more of your addons!"
 			live="https://thejaviertc.github.io/steam-workshop-stats/"
