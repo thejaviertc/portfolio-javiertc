@@ -295,24 +295,12 @@
 			live="https://thejaviertc.github.io/steam-workshop-stats/"
 			github="https://github.com/thejaviertc/steam-workshop-stats"
 		>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-			/>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-			/>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-			/>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-			/>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
-			/>
-			<Badge
-				logo="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-			/>
+			<Badge logo={htmlLogo} />
+			<Badge logo={sassLogo} />
+			<Badge logo={tailwindLogo} />
+			<Badge logo={typescriptLogo} />
+			<Badge logo={svelteLogo} />
+			<Badge logo={nodejsLogo} />
 		</Project>
 	</div>
 </section>
