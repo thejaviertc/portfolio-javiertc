@@ -5,7 +5,7 @@ import { describe, expect, it } from "vitest";
 import "../i18n";
 import KnowledgeItem from "./KnowledgeItem.svelte";
 
-describe("Knowledge Component", () => {
+describe("KnowledgeItem Component", () => {
 	it("Renders 'Just Starting' when 2 months have not yet passed", () => {
 		const testingDate = new Date(Date.now());
 		testingDate.setMonth(testingDate.getMonth() - 1);
