@@ -3,7 +3,7 @@ import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";
 import KnowledgeGroup from "./KnowledgeGroup.svelte";
 
-describe("Button Component", () => {
+describe("KnowledgeGroup Component", () => {
 	it("Renders", () => {
 		render(KnowledgeGroup, {
 			title: "Databases",
