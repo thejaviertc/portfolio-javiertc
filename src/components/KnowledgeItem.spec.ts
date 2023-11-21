@@ -2,6 +2,7 @@ import TLevel from "$lib/TLevel";
 import TUsage from "$lib/TUsage";
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
+import "../i18n";
 import KnowledgeItem from "./KnowledgeItem.svelte";
 
 describe("Knowledge Component", () => {
