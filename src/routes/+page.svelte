@@ -45,6 +45,7 @@
 		faTools,
 	} from "@fortawesome/free-solid-svg-icons";
 	import Fa from "svelte-fa";
+	import { _ } from "svelte-i18n";
 </script>
 
 <svelte:head>
@@ -53,28 +54,30 @@
 
 <section class="min-h-screen flex flex-col justify-center items-center text-center">
 	<h1>Javiertc <Fa icon={faCode} /></h1>
-	<h2 class="my-4">Software Engineering Student</h2>
+	<h2 class="my-4">{$_("description")}</h2>
 	<div class="my-6">
-		<Button class="btn-accent" faIcon={faGithub} link="https://github.com/thejaviertc"
-			>Github</Button
-		>
-		<Button class="btn-accent" faIcon={faSteam} link="https://steamcommunity.com/id/javiertc/"
-			>Steam</Button
-		>
+		<Button class="btn-accent" faIcon={faGithub} link="https://github.com/thejaviertc">
+			Github
+		</Button>
+		<Button class="btn-accent" faIcon={faSteam} link="https://steamcommunity.com/id/javiertc/">
+			Steam
+		</Button>
 	</div>
-	<Button class="btn-accent" faIcon={faAngleDown} link="#knowledge">Let's Go</Button>
+	<Button class="btn-accent" faIcon={faAngleDown} link="#knowledge">
+		{$_("actions.moreInfo")}
+	</Button>
 </section>
 <div class="divider divider-secondary" />
 <section id="knowledge" class="pt-20 mb-10 mx-5 sm:mx-10">
-	<h2 class="mb-10 text-center">Knowledge</h2>
+	<h2 class="mb-10 text-center">{$_("misc.knowledge")}</h2>
 	<div class="flex flex-wrap gap-8 justify-center">
-		<KnowledgeGroup title="Programming Languages" faIcon={faCode}>
+		<KnowledgeGroup title={$_("knowledge.programmingLanguages")} faIcon={faCode}>
 			<KnowledgeItem
 				color="bg-yellow-500"
 				logo={javascriptLogo}
 				text="Javascript"
 				usage={TUsage.RARELY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
@@ -82,7 +85,7 @@
 				logo={typescriptLogo}
 				text="Typescript"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
@@ -102,7 +105,7 @@
 				date={new Date("November 1, 2023")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Frontend" faIcon={faDisplay}>
+		<KnowledgeGroup title={$_("knowledge.frontend")} faIcon={faDisplay}>
 			<KnowledgeItem
 				color="bg-orange-600"
 				logo={htmlLogo}
@@ -116,7 +119,7 @@
 				logo={cssLogo}
 				text="CSS"
 				usage={TUsage.RARELY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2019")}
 			/>
 			<KnowledgeItem
@@ -140,7 +143,7 @@
 				logo={bootstrapLogo}
 				text="Bootstrap"
 				usage={TUsage.RARELY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2019")}
 			/>
 			<KnowledgeItem
@@ -148,7 +151,7 @@
 				logo={svelteLogo}
 				text="Svelte"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
@@ -160,13 +163,13 @@
 				date={new Date("September 1, 2022")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Backend" faIcon={faServer}>
+		<KnowledgeGroup title={$_("knowledge.backend")} faIcon={faServer}>
 			<KnowledgeItem
 				color="bg-green-700"
 				logo={nodejsLogo}
 				text="NodeJS"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2020")}
 			/>
 			<KnowledgeItem
@@ -174,7 +177,7 @@
 				logo={expressjsLogo}
 				text="ExpressJS"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
@@ -186,13 +189,13 @@
 				date={new Date("November 1, 2023")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Databases" faIcon={faDatabase}>
+		<KnowledgeGroup title={$_("knowledge.databases")} faIcon={faDatabase}>
 			<KnowledgeItem
 				color="bg-blue-400"
 				logo={sqlLogo}
 				text="SQL"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
@@ -200,11 +203,11 @@
 				logo={mysqlLogo}
 				text="MySQL"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 		</KnowledgeGroup>
-		<KnowledgeGroup title="Tools" faIcon={faTools}>
+		<KnowledgeGroup title={$_("knowledge.tools")} faIcon={faTools}>
 			<KnowledgeItem
 				color="bg-sky-600"
 				logo={vscodeLogo}
@@ -218,7 +221,7 @@
 				logo={gitLogo}
 				text="Git"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2022")}
 			/>
 			<KnowledgeItem
@@ -234,7 +237,7 @@
 				logo={linuxLogo}
 				text="Linux"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
@@ -242,7 +245,7 @@
 				logo={mysqlLogo}
 				text="MySQL Workbench"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
 			<KnowledgeItem
@@ -274,7 +277,7 @@
 				logo={filezillaLogo}
 				text="Filezilla"
 				usage={TUsage.SOMETIMES}
-				level={TLevel.COMPETENT}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("2019")}
 			/>
 			<KnowledgeItem
@@ -289,12 +292,12 @@
 	</div>
 </section>
 <section id="projects" class="mb-10">
-	<h2 class="mb-10 text-center">Current Projects</h2>
+	<h2 class="mb-10 text-center">{$_("misc.currentProjects")}</h2>
 	<div>
 		<Project
 			image={steamWorkshopStatsBanner}
-			name="Steam Workshop Stats"
-			description="See the number of views, subs, likes and more of your addons!"
+			name={$_("projects.steamWorkshopStats.title")}
+			description={$_("projects.steamWorkshopStats.description")}
 			live="https://thejaviertc.github.io/steam-workshop-stats/"
 			github="https://github.com/thejaviertc/steam-workshop-stats"
 		>

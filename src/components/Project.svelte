@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { faGithub } from "@fortawesome/free-brands-svg-icons";
 	import { faWifi } from "@fortawesome/free-solid-svg-icons";
+	import { _ } from "svelte-i18n";
 	import Button from "./Button.svelte";
 
 	export let image: string;
@@ -22,11 +23,12 @@
 				<slot />
 			</div>
 			<div class="flex-col justify-center my-4">
-				<Button class="btn-accent mb-4 sm:mb-0" faIcon={faWifi} link={live}
-					>Live Website</Button
-				>
-				<Button class="btn-accent" faIcon={faGithub} link={github}>Github Repository</Button
-				>
+				<Button class="btn-accent mb-4 sm:mb-0" faIcon={faWifi} link={live}>
+					{$_("actions.liveWebsite")}
+				</Button>
+				<Button class="btn-accent" faIcon={faGithub} link={github}>
+					{$_("actions.github")}
+				</Button>
 			</div>
 		</div>
 	</div>

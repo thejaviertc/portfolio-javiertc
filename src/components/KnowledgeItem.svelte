@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { _ } from "svelte-i18n";
+
 	export let color: string;
 	export let logo: string;
 	export let text: string;
@@ -8,7 +10,7 @@
 
 	/**
 	 * Converts a Date object into a string with friendly format
-	 * @param date Date
+	 * @param date
 	 */
 	function obtainAmountTime(date: Date): string {
 		const actualDate = new Date(Date.now());
@@ -16,14 +18,14 @@
 		// Get the amout of years since the date
 		const years = new Date(+new Date() - +date).getFullYear() - 1970;
 
-		if (years > 0) return `+${years} year/s`;
+		if (years > 0) return `+${years} ${$_("knowledge.year/s")}`;
 
 		// Get the amout of months since the date
 		const months = calculateNumberMonths(date, actualDate);
 
-		if (months > 1) return `${months} months`;
+		if (months > 1) return `${months} ${$_("knowledge.months")}`;
 
-		return "Just Starting";
+		return $_("knowledge.justStarting");
 	}
 
 	/**
@@ -46,8 +48,8 @@
 	<img src={logo} class="w-16 h-16" alt="Logo" />
 	<h5 class="mx-12 my-2 sm:my-0 text-center">{text}</h5>
 	<div class="text-center sm:text-right">
-		<h5>Usage: {usage}</h5>
-		<h5>Knowledge: {level}</h5>
-		<h5>Started Using It: {obtainAmountTime(date)}</h5>
+		<h5>{$_("knowledge.usage", { values: { usage: $_(`knowledge.${usage}`) } })}</h5>
+		<h5>{$_("knowledge.level", { values: { level: $_(`knowledge.${level}`) } })}</h5>
+		<h5>{$_("knowledge.startedUsingIt", { values: { date: obtainAmountTime(date) } })}</h5>
 	</div>
 </div>

@@ -1,0 +1,42 @@
+{
+	"language": "Español",
+	"title": "Portfolio de Javiertc",
+	"description": "Estudiante de Ingeniería del Software",
+	"misc": {
+		"knowledge": "Conocimientos",
+		"projects": "Proyectos",
+		"currentProjects": "Proyectos Actuales"
+	},
+	"actions": {
+		"changeLanguage": "Cambiar Idioma",
+		"moreInfo": "Más Información",
+		"liveWebsite": "Página Web",
+		"github": "Repositorio de Github"
+	},
+	"knowledge": {
+		"usage": "Uso: {usage}",
+		"rarely": "Raramente",
+		"sometimes": "A veces",
+		"recurrently": "Recurrentemente",
+		"level": "Conocimiento: {level}",
+		"minimal": "Mínimo",
+		"basic": "Básico",
+		"intermediate": "Intermedio",
+		"advanced": "Avanzado",
+		"startedUsingIt": "Empecé a Usarlo: {date}",
+		"year/s": "año/s",
+		"months": "meses",
+		"justStarting": "Recientemente",
+		"programmingLanguages": "Lenguajes de Programación",
+		"frontend": "Frontend",
+		"backend": "Backend",
+		"databases": "Bases de Datos",
+		"tools": "Herramientas"
+	},
+	"projects": {
+		"steamWorkshopStats": {
+			"title": "Estadísticas de Steam Workshop",
+			"description": "Observe el número de visitas, subs, likes y más de tus addons!"
+		}
+	}
+}

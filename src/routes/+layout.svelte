@@ -1,8 +1,10 @@
 <script lang="ts">
 	import "../app.scss";
+	import "../i18n";
 
 	import { base } from "$app/paths";
 	import Button from "$components/Button.svelte";
+	import LanguageSelector from "$components/LanguageSelector.svelte";
 	import {
 		faBars,
 		faBookAtlas,
@@ -11,6 +13,7 @@
 	} from "@fortawesome/free-solid-svg-icons";
 	import { onMount } from "svelte";
 	import Fa from "svelte-fa";
+	import { _ } from "svelte-i18n";
 
 	let navbarColor: string = "secondary";
 
@@ -34,18 +37,26 @@
 				tabindex="-1"
 				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow bg-secondary rounded-box w-52"
 			>
-				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">Knowledge</Button>
-				<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects"
-					>Projects</Button
-				>
+				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">
+					{$_("misc.knowledge")}
+				</Button>
+				<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects">
+					{$_("misc.projects")}
+				</Button>
+				<LanguageSelector />
 			</ul>
 		</div>
-		<Button class="btn-ghost" faIcon={faUserAlt} link={base}>Javiertc's Portfolio</Button>
+		<Button class="btn-ghost" faIcon={faUserAlt} link={base}>{$_("title")}</Button>
 	</div>
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
-			<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">Knowledge</Button>
-			<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects">Projects</Button>
+			<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">
+				{$_("misc.knowledge")}
+			</Button>
+			<Button class="btn-ghost" faIcon={faDiagramProject} link="#projects">
+				{$_("misc.projects")}
+			</Button>
+			<LanguageSelector />
 		</ul>
 	</div>
 </nav>

@@ -1,7 +1,7 @@
 enum TUsage {
-	RECURRENTLY = "Recurrently",
-	SOMETIMES = "Sometimes",
-	RARELY = "Rarely",
+	RECURRENTLY = "recurrently",
+	SOMETIMES = "sometimes",
+	RARELY = "rarely",
 }
 
 export default TUsage;
