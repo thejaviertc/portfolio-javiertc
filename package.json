@@ -6,7 +6,7 @@
 	"homepage": "https://thejaviertc.github.io/portfolio-javiertc/",
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.4.2",
-		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.5.0",
 		"svelte-fa": "^3.0.4",
 		"svelte-i18n": "^4.0.0"
 	},
