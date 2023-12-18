@@ -1,6 +1,7 @@
 import { render } from "@testing-library/svelte";
 import { describe, it } from "vitest";
-import Badge from "./Badge.svelte";
+
+import Badge from "$components/Badge.svelte";
 
 describe("Badge Component", () => {
 	it("Renders", () => {
