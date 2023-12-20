@@ -1,9 +1,11 @@
 import TLevel from "$lib/TLevel";
 import TUsage from "$lib/TUsage";
+
 import { render, screen } from "@testing-library/svelte";
 import { describe, expect, it } from "vitest";
 import "../i18n";
-import KnowledgeItem from "./KnowledgeItem.svelte";
+
+import KnowledgeItem from "$components/KnowledgeItem.svelte";
 
 describe("KnowledgeItem Component", () => {
 	it("Renders 'Just Starting' when 2 months have not yet passed", () => {
