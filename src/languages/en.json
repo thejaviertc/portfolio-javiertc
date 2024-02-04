@@ -23,7 +23,7 @@
 		"basic": "Basic",
 		"intermediate": "Intermediate",
 		"advanced": "Advanced",
-		"startedUsingIt": "Started Using It: {date}",
+		"firstUse": "First Use: {date}",
 		"year/s": "year/s",
 		"months": "months",
 		"justStarting": "Just Starting",

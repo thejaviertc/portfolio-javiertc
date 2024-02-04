@@ -100,8 +100,8 @@
 				color="bg-purple-700"
 				logo={csharpLogo}
 				text="C#"
-				usage={TUsage.RARELY}
-				level={TLevel.MINIMAL}
+				usage={TUsage.SOMETIMES}
+				level={TLevel.BASIC}
 				date={new Date("November 1, 2023")}
 			/>
 		</KnowledgeGroup>
@@ -184,8 +184,8 @@
 				color="bg-purple-700"
 				logo={aspnetLogo}
 				text="ASP.NET Core"
-				usage={TUsage.RARELY}
-				level={TLevel.MINIMAL}
+				usage={TUsage.SOMETIMES}
+				level={TLevel.BASIC}
 				date={new Date("November 1, 2023")}
 			/>
 		</KnowledgeGroup>

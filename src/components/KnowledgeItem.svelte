@@ -50,6 +50,6 @@
 	<div class="text-center sm:text-right">
 		<h5>{$_("knowledge.usage", { values: { usage: $_(`knowledge.${usage}`) } })}</h5>
 		<h5>{$_("knowledge.level", { values: { level: $_(`knowledge.${level}`) } })}</h5>
-		<h5>{$_("knowledge.startedUsingIt", { values: { date: obtainAmountTime(date) } })}</h5>
+		<h5>{$_("knowledge.firstUse", { values: { date: obtainAmountTime(date) } })}</h5>
 	</div>
 </div>
