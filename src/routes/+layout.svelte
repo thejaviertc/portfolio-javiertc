@@ -46,7 +46,7 @@
 				<LanguageSelector />
 			</ul>
 		</div>
-		<Button class="btn-ghost ml-0" faIcon={faUserAlt} link={base}>{$_("title")}</Button>
+		<Button class="btn-ghost ml-0" faIcon={faUserAlt} link="{base}/">{$_("title")}</Button>
 	</div>
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">

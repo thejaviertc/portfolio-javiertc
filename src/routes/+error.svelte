@@ -11,5 +11,5 @@
 
 <section class="min-h-screen flex flex-col justify-center items-center text-center">
 	<h2 class="mb-6">Something Happened - {$page.status}</h2>
-	<Button class="btn-accent" faIcon={faBackward} link={base}>Return Back</Button>
+	<Button class="btn-accent" faIcon={faBackward} link="{base}/">Return Back</Button>
 </section>
