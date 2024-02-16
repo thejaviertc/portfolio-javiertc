@@ -53,8 +53,8 @@
 </svelte:head>
 
 <section class="min-h-screen flex flex-col justify-center items-center text-center">
-	<h1>Javiertc <Fa icon={faCode} /></h1>
-	<h2 class="my-4">{$_("description")}</h2>
+	<h1 class="px-6">Javiertc <Fa icon={faCode} /></h1>
+	<h2 class="my-4 px-6">{$_("description")}</h2>
 	<div class="my-6">
 		<Button class="btn-accent" faIcon={faGithub} link="https://github.com/thejaviertc">
 			Github
