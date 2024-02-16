@@ -35,7 +35,7 @@
 			</button>
 			<ul
 				tabindex="-1"
-				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow bg-secondary rounded-box w-52"
+				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow bg-secondary rounded-box w-64"
 			>
 				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">
 					{$_("misc.knowledge")}
@@ -46,7 +46,7 @@
 				<LanguageSelector />
 			</ul>
 		</div>
-		<Button class="btn-ghost" faIcon={faUserAlt} link={base}>{$_("title")}</Button>
+		<Button class="btn-ghost ml-0" faIcon={faUserAlt} link="{base}/">{$_("title")}</Button>
 	</div>
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
