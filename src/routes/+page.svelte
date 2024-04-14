@@ -23,6 +23,7 @@
 	import linuxLogo from "$lib/assets/knowledge/linux.svg";
 	import mysqlLogo from "$lib/assets/knowledge/mysql.svg";
 	import nodejsLogo from "$lib/assets/knowledge/nodejs.svg";
+	import notionLogo from "$lib/assets/knowledge/notion.svg";
 	import sassLogo from "$lib/assets/knowledge/sass.svg";
 	import sonarcloudLogo from "$lib/assets/knowledge/sonarcloud.svg";
 	import sqlLogo from "$lib/assets/knowledge/sql.svg";
@@ -49,7 +50,7 @@
 </script>
 
 <svelte:head>
-	<title>Javiertc's Portfolio</title>
+	<title>{$_("title")}</title>
 </svelte:head>
 
 <section class="min-h-screen flex flex-col justify-center items-center text-center">
@@ -100,7 +101,7 @@
 				color="bg-purple-700"
 				logo={csharpLogo}
 				text="C#"
-				usage={TUsage.SOMETIMES}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
 				date={new Date("November 1, 2023")}
 			/>
@@ -135,7 +136,7 @@
 				logo={tailwindLogo}
 				text="Tailwind"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.BASIC}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("August 1, 2022")}
 			/>
 			<KnowledgeItem
@@ -159,7 +160,7 @@
 				logo={svelteLogo}
 				text="SvelteKit"
 				usage={TUsage.RECURRENTLY}
-				level={TLevel.BASIC}
+				level={TLevel.INTERMEDIATE}
 				date={new Date("September 1, 2022")}
 			/>
 		</KnowledgeGroup>
@@ -176,7 +177,7 @@
 				color="bg-yellow-500"
 				logo={expressjsLogo}
 				text="ExpressJS"
-				usage={TUsage.RECURRENTLY}
+				usage={TUsage.SOMETIMES}
 				level={TLevel.INTERMEDIATE}
 				date={new Date("2021")}
 			/>
@@ -184,7 +185,7 @@
 				color="bg-purple-700"
 				logo={aspnetLogo}
 				text="ASP.NET Core"
-				usage={TUsage.SOMETIMES}
+				usage={TUsage.RECURRENTLY}
 				level={TLevel.BASIC}
 				date={new Date("November 1, 2023")}
 			/>
@@ -284,9 +285,17 @@
 				color="bg-blue-600"
 				logo={trelloLogo}
 				text="Trello"
-				usage={TUsage.RECURRENTLY}
+				usage={TUsage.RARELY}
 				level={TLevel.ADVANCED}
 				date={new Date("2019")}
+			/>
+			<KnowledgeItem
+				color="bg-base-300"
+				logo={notionLogo}
+				text="Notion"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.BASIC}
+				date={new Date("February 1, 2024")}
 			/>
 		</KnowledgeGroup>
 	</div>
