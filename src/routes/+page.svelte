@@ -23,6 +23,7 @@
 	import linuxLogo from "$lib/assets/knowledge/linux.svg";
 	import mysqlLogo from "$lib/assets/knowledge/mysql.svg";
 	import nodejsLogo from "$lib/assets/knowledge/nodejs.svg";
+	import notionLogo from "$lib/assets/knowledge/notion.svg";
 	import sassLogo from "$lib/assets/knowledge/sass.svg";
 	import sonarcloudLogo from "$lib/assets/knowledge/sonarcloud.svg";
 	import sqlLogo from "$lib/assets/knowledge/sql.svg";
@@ -287,6 +288,14 @@
 				usage={TUsage.RARELY}
 				level={TLevel.ADVANCED}
 				date={new Date("2019")}
+			/>
+			<KnowledgeItem
+				color="bg-base-300"
+				logo={notionLogo}
+				text="Notion"
+				usage={TUsage.SOMETIMES}
+				level={TLevel.BASIC}
+				date={new Date("February 1, 2024")}
 			/>
 		</KnowledgeGroup>
 	</div>
