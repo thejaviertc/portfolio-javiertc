@@ -11,7 +11,8 @@
 		"changeLanguage": "Cambiar Idioma",
 		"moreInfo": "Más Información",
 		"liveWebsite": "Página Web",
-		"github": "Repositorio de Github"
+		"github": "Repositorio de Github",
+		"returnBack": "Volver Atrás"
 	},
 	"knowledge": {
 		"usage": "Uso: {usage}",
@@ -38,5 +39,8 @@
 			"title": "Estadísticas de Steam Workshop",
 			"description": "Observe el número de visitas, subs, likes y más de tus addons!"
 		}
+	},
+	"error": {
+		"unknown": "Ha ocurrido un error desconocido - {status}"
 	}
 }

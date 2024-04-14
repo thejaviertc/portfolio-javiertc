@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-	<title>Javiertc's Portfolio</title>
+	<title>{$_("title")}</title>
 </svelte:head>
 
 <section class="min-h-screen flex flex-col justify-center items-center text-center">

@@ -11,7 +11,8 @@
 		"changeLanguage": "Change Language",
 		"moreInfo": "More Info",
 		"liveWebsite": "Live Website",
-		"github": "Github Repository"
+		"github": "Github Repository",
+		"returnBack": "Return Back"
 	},
 	"knowledge": {
 		"usage": "Usage: {usage}",
@@ -38,5 +39,8 @@
 			"title": "Steam Workshop Stats",
 			"description": "See the number of views, subs, likes and more of your addons!"
 		}
+	},
+	"error": {
+		"unknown": "An unknown error happened - {status}"
 	}
 }
