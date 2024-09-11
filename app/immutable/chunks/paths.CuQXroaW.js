@@ -1,0 +1,1 @@
+var t;const s=((t=globalThis.__sveltekit_e35e3b)==null?void 0:t.base)??"/portfolio-javiertc";var e;const a=((e=globalThis.__sveltekit_e35e3b)==null?void 0:e.assets)??"https://thejaviertc.github.io/portfolio-javiertc";export{a,s as b};
