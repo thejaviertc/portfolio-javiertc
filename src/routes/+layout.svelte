@@ -1,5 +1,5 @@
 <script lang="ts">
-	import "../app.scss";
+	import "../app.css";
 	import "../i18n";
 
 	import { base } from "$app/paths";
@@ -35,7 +35,7 @@
 			</button>
 			<ul
 				tabindex="-1"
-				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow bg-secondary rounded-box w-64"
+				class="menu menu-sm dropdown-content mt-4 ml-2 p-2 shadow-sm bg-secondary rounded-box w-64"
 			>
 				<Button class="btn-ghost" faIcon={faBookAtlas} link="#knowledge">
 					{$_("misc.knowledge")}

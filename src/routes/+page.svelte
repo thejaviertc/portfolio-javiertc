@@ -68,7 +68,7 @@
 		{$_("actions.moreInfo")}
 	</Button>
 </section>
-<div class="divider divider-secondary" />
+<div class="divider divider-secondary"></div>
 <section id="knowledge" class="pt-20 mb-10 mx-5 sm:mx-10">
 	<h2 class="mb-10 text-center">{$_("misc.knowledge")}</h2>
 	<div class="flex flex-wrap gap-8 justify-center">
