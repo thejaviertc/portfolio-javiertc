@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+	name: "portfolio";
+	default: true;
+	prefersdark: true;
+	color-scheme: dark;
+
+	--color-primary: #191919;
+	--color-secondary: #232323;
+	--color-accent: #0995F1;
+	--color-neutral: #696E79;
+	--color-base-100: #ffffff;
+}
+
+@config "../tailwind.config.js";
 
 html {
 	scroll-behavior: smooth;
