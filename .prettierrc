@@ -6,7 +6,7 @@
 	"singleQuote": false,
 	"bracketSpacing": true,
 	"arrowParens": "always",
-	"plugins": ["prettier-plugin-svelte"],
+	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
 	"pluginSearchDirs": ["."],
 	"overrides": [
 		{
@@ -15,5 +15,6 @@
 				"parser": "svelte"
 			}
 		}
-	]
+	],
+	"tailwindStylesheet": "./src/app.css"
 }
