@@ -64,11 +64,11 @@ svg {
 }
 
 .btn {
-	@apply text-gray-100 text-lg;
+	@apply text-lg text-gray-100;
 }
 
 .btn-ghost {
-	@apply bg-transparent shadow-none hover:bg-black/15 border-transparent;
+	@apply border-transparent bg-transparent shadow-none hover:bg-black/15;
 }
 
 .navbar {

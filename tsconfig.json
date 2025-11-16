@@ -11,6 +11,6 @@
 		"sourceMap": true,
 		"strict": true,
 		"moduleResolution": "bundler",
-		"target": "ESNext",
+		"target": "ESNext"
 	}
 }

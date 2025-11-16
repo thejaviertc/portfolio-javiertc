@@ -16,13 +16,13 @@
 </script>
 
 <div class="dropdown dropdown-end">
-	<button tabindex="-1" class="btn btn-ghost normal-case text-sm md:text-base text-gray-100">
+	<button tabindex="-1" class="btn text-sm text-gray-100 normal-case btn-ghost md:text-base">
 		<Fa class="mr-2" icon={faLanguage} />
 		{$_("actions.changeLanguage")}
 	</button>
 	<ul
 		tabindex="-1"
-		class="menu menu-compact dropdown-content mt-3 p-2 shadow-sm bg-secondary rounded-box w-52"
+		class="menu-compact dropdown-content menu mt-3 w-52 rounded-box bg-secondary p-2 shadow-sm"
 	>
 		<li>
 			<button on:click={changeLanguage} value="en" class="text-lg">

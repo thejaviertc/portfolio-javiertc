@@ -43,10 +43,10 @@
 </script>
 
 <div
-	class="{color} p-4 flex flex-auto flex-col sm:flex-row justify-center items-center rounded-lg shadow-md"
+	class="{color} flex flex-auto flex-col items-center justify-center rounded-lg p-4 shadow-md sm:flex-row"
 >
-	<img src={logo} class="w-16 h-16" alt="Logo" />
-	<h5 class="mx-12 my-2 sm:my-0 text-center">{text}</h5>
+	<img src={logo} class="h-16 w-16" alt="Logo" />
+	<h5 class="mx-12 my-2 text-center sm:my-0">{text}</h5>
 	<div class="text-center sm:text-right">
 		<h5>{$_("knowledge.usage", { values: { usage: $_(`knowledge.${usage}`) } })}</h5>
 		<h5>{$_("knowledge.level", { values: { level: $_(`knowledge.${level}`) } })}</h5>
