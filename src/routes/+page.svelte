@@ -53,7 +53,7 @@
 	<title>{$_("title")}</title>
 </svelte:head>
 
-<section class="min-h-screen flex flex-col justify-center items-center text-center">
+<section class="flex min-h-screen flex-col items-center justify-center text-center">
 	<h1 class="px-6">Javiertc <Fa icon={faCode} /></h1>
 	<h2 class="my-4 px-6">{$_("description")}</h2>
 	<div class="my-6">
@@ -69,9 +69,9 @@
 	</Button>
 </section>
 <div class="divider divider-secondary"></div>
-<section id="knowledge" class="pt-20 mb-10 mx-5 sm:mx-10">
+<section id="knowledge" class="mx-5 mb-10 pt-20 sm:mx-10">
 	<h2 class="mb-10 text-center">{$_("misc.knowledge")}</h2>
-	<div class="flex flex-wrap gap-8 justify-center">
+	<div class="flex flex-wrap justify-center gap-8">
 		<KnowledgeGroup title={$_("knowledge.programmingLanguages")} faIcon={faCode}>
 			<KnowledgeItem
 				color="bg-yellow-500"

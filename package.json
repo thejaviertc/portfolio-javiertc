@@ -11,15 +11,13 @@
 		"svelte-i18n": "^4.0.1"
 	},
 	"devDependencies": {
-		"@eslint/eslintrc": "^3.3.1",
+		"@eslint/compat": "^1.4.0",
 		"@eslint/js": "^9.26.0",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.20.8",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
-		"@tailwindcss/postcss": "^4.1.5",
 		"@tailwindcss/vite": "^4.1.5",
-		"@typescript-eslint/eslint-plugin": "^8.31.1",
-		"@typescript-eslint/parser": "^8.31.1",
+		"@types/node": "^22.19.1",
 		"daisyui": "^5.0.35",
 		"eslint": "^9.26.0",
 		"eslint-config-prettier": "^10.1.2",
@@ -29,17 +27,21 @@
 		"postcss": "^8.5.3",
 		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.7.1",
 		"svelte": "^5.28.2",
 		"svelte-check": "^4.1.7",
 		"tailwindcss": "^4.1.5",
-		"tslib": "^2.8.1",
 		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.46.4",
 		"vite": "^6.3.4"
 	},
 	"scripts": {
 		"dev": "vite dev --open",
 		"build": "vite build",
 		"preview": "vite preview --open",
-		"lint": "eslint"
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
 	}
 }
